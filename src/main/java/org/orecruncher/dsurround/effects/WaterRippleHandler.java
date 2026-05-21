@@ -28,7 +28,7 @@ public class WaterRippleHandler {
     }
 
     private static void addWaterRipple(ClientLevel world, double x, double y, double z) {
-        var ripple = new WaterRippleParticle(CONFIG.waterRippleStyle, world, x, y, z);
+        var ripple = new WaterRippleParticle(CONFIG.waterRippleStyle, rippleHelper.getRenderType(), world, x, y, z);
         rippleHelper.add(ripple);
     }
 

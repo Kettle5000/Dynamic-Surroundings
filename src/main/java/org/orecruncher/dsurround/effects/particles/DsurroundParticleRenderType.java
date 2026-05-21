@@ -10,11 +10,13 @@ import net.minecraft.client.renderer.texture.TextureManager;
 import net.minecraft.resources.ResourceLocation;
 import org.jetbrains.annotations.NotNull;
 
+import java.util.function.Supplier;
+
 public class DsurroundParticleRenderType implements ParticleRenderType {
 
-    private final ResourceLocation texture;
+    private final Supplier<ResourceLocation> texture;
 
-    public DsurroundParticleRenderType(final ResourceLocation texture) {
+    public DsurroundParticleRenderType(@NotNull final Supplier<ResourceLocation> texture) {
         this.texture = texture;
     }
 
@@ -37,11 +39,11 @@ public class DsurroundParticleRenderType implements ParticleRenderType {
     }
 
     protected ResourceLocation getTexture() {
-        return this.texture;
+        return this.texture.get();
     }
 
     @Override
     public String toString() {
-        return this.texture.toString();
+        return this.texture.get().toString();
     }
 }

@@ -20,6 +20,7 @@ public class WaterRippleParticle extends TextureSheetParticle {
     private static final int MAX_BLOCKS_FADE = 12;
 
     private final WaterRippleStyle rippleStyle;
+    private final ParticleRenderType renderType;
 
     private final float growthRate;
     private final float scaledWidth;
@@ -29,10 +30,11 @@ public class WaterRippleParticle extends TextureSheetParticle {
     private float texV2;
     private final float defaultColorAlpha;
 
-    public WaterRippleParticle(WaterRippleStyle rippleStyle, ClientLevel world, double x, double y, double z) {
+    public WaterRippleParticle(WaterRippleStyle rippleStyle, ParticleRenderType renderType, ClientLevel world, double x, double y, double z) {
         super(world, x, y, z, 0.0, 0.0, 0.0);
 
         this.rippleStyle = rippleStyle;
+        this.renderType = renderType;
         this.lifetime = rippleStyle.getMaxAge();
 
         if (rippleStyle.doScaling()) {
@@ -71,7 +73,7 @@ public class WaterRippleParticle extends TextureSheetParticle {
 
     @Override
     public @NotNull ParticleRenderType getRenderType() {
-        return ParticleRenderType.CUSTOM;
+        return this.renderType;
     }
 
     @Override

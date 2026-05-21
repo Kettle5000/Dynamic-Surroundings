@@ -1,6 +1,5 @@
 package org.orecruncher.dsurround.effects.particles;
 
-import com.mojang.blaze3d.systems.RenderSystem;
 import com.mojang.blaze3d.vertex.VertexConsumer;
 import dev.architectury.event.events.client.ClientLifecycleEvent;
 import net.minecraft.client.Camera;
@@ -32,13 +31,13 @@ import java.util.function.Supplier;
 public final class ParticleRenderCollection<TParticle extends TextureSheetParticle> extends Particle {
 
     private final Consumer<Camera> setup;
-    private final Supplier<ResourceLocation> textureSupplier;
+    private final DsurroundParticleRenderType renderType;
     private final ObjectArray<TParticle> particles;
 
-    private ParticleRenderCollection(@NotNull ClientLevel clientLevel, @NotNull Supplier<ResourceLocation> textureSupplier, @Nullable Consumer<Camera> setup) {
+    private ParticleRenderCollection(@NotNull ClientLevel clientLevel, @NotNull DsurroundParticleRenderType renderType, @Nullable Consumer<Camera> setup) {
         super(clientLevel, 0, 0, 0);
-        this.setup = Objects.requireNonNullElseGet(setup, () -> this::standardSetup);
-        this.textureSupplier = textureSupplier;
+        this.setup = Objects.requireNonNullElse(setup, camera -> {});
+        this.renderType = renderType;
         this.particles = new ObjectArray<>(128);
         this.tick();
     }
@@ -46,8 +45,9 @@ public final class ParticleRenderCollection<TParticle extends TextureSheetPartic
     @NotNull
     @Override
     public ParticleRenderType getRenderType() {
-        // Can't use NO_RENDER as the ParticleEngine will not attempt to render
-        return ParticleRenderType.CUSTOM;
+        // Can't use NO_RENDER as the ParticleEngine will not attempt to render.
+        // CUSTOM does not call BufferBuilder.begin(); DsurroundParticleRenderType does (required with Iris/Embeddium).
+        return this.renderType;
     }
 
     @Override
@@ -67,15 +67,8 @@ public final class ParticleRenderCollection<TParticle extends TextureSheetPartic
         if (this.particles.isEmpty())
             return;
 
-        RenderSystem.setShaderTexture(0, this.textureSupplier.get());
         this.setup.accept(camera);
         this.particles.forEach(p -> p.render(vertexConsumer, camera, tickDelta));
-    }
-
-    private void standardSetup(@NotNull Camera camera) {
-        RenderSystem.depthMask(true);
-        RenderSystem.enableBlend();
-        RenderSystem.defaultBlendFunc();
     }
 
     public void add(@NotNull TParticle particle) {
@@ -93,7 +86,7 @@ public final class ParticleRenderCollection<TParticle extends TextureSheetPartic
 
         private final String name;
         private final Consumer<Camera> setup;
-        private final Supplier<ResourceLocation> textureSupplier;
+        private final DsurroundParticleRenderType renderType;
 
         private WeakReference<ParticleRenderCollection<TParticle>> particle;
         private String diagnostics;
@@ -119,7 +112,7 @@ public final class ParticleRenderCollection<TParticle extends TextureSheetPartic
         public Helper(@NotNull String name, @NotNull Supplier<ResourceLocation> textureSupplier, @Nullable Consumer<Camera> setup) {
             this.name = name;
             this.setup = setup;
-            this.textureSupplier = textureSupplier;
+            this.renderType = new DsurroundParticleRenderType(textureSupplier);
             this.diagnostics = this.name;
 
             ClientLifecycleEvent.CLIENT_LEVEL_LOAD.register(state -> this.clear());
@@ -137,10 +130,15 @@ public final class ParticleRenderCollection<TParticle extends TextureSheetPartic
         }
 
         @NotNull
+        public ParticleRenderType getRenderType() {
+            return this.renderType;
+        }
+
+        @NotNull
         private ParticleRenderCollection<TParticle> get() {
             var pc = this.particle != null ? this.particle.get() : null;
             if (pc == null || !pc.isAlive()) {
-                pc = new ParticleRenderCollection<>(GameUtils.getWorld().orElseThrow(), this.textureSupplier, this.setup);
+                pc = new ParticleRenderCollection<>(GameUtils.getWorld().orElseThrow(), this.renderType, this.setup);
                 this.particle = new WeakReference<>(pc);
                 GameUtils.getParticleManager().add(pc);
             }
