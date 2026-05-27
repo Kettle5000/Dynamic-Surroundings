@@ -2,6 +2,7 @@
   "required": true,
   "minVersion": "0.8",
   "package": "org.orecruncher.dsurround.mixins",
+  "plugin": "org.orecruncher.dsurround.mixins.DSurroundMixinPlugin",
   "compatibilityLevel": "JAVA_17",
   "refmap": "dynamicsurroundingsforge-refmap.json",
   "mixins": [
@@ -14,6 +15,7 @@
     "audio.MixinSoundEngineAccessor",
     "audio.MixinSoundEvent",
     "audio.MixinSoundLibrary",
+    "audio.MixinSoundLibraryOpenAL",
     "audio.MixinSoundManagerAccessor",
     "audio.MixinSource",
     "core.MixinAbstractSoundInstance",
