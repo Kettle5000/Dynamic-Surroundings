@@ -1,1227 +1,6 @@
 {
-	"thunder": {
-		"subtitle": "dsurround.sound.caption.thunder",
-		"ds_credits": [
-			{
-				"name": "Thunder 1",
-				"author": "Yoyodaman234",
-				"website": "https://www.freesound.org/people/Yoyodaman234",
-				"license": "Creative Commons 0"
-			},
-			{
-				"name": "Donner1.wav",
-				"author": "swuing",
-				"website": "https://www.freesound.org/people/swuing",
-				"license": "Attribution"
-			},
-			{
-				"name": "Thunder - 1 / Thunder - 2",
-				"author": "bone666138",
-				"website": "https://www.freesound.org/people/bone666138",
-				"license": "Attribution"
-			},
-			{
-				"name": "Distant Thunder.wav",
-				"author": "sarson",
-				"website": "https://www.freesound.org/people/sarson",
-				"license": "Creative Commons 0"
-			},
-			{
-				"name": "NM-Mejor-Lado-Thunder-01.wav",
-				"author": "aaronstar",
-				"website": "https://www.freesound.org/people/aaronstar",
-				"license": "Creative Commons 0"
-			}
-		],
-		"sounds": [
-			{
-				"name": "dsurround:ambient/weather/thunder1",
-				"stream": true
-			},
-			{
-				"name": "dsurround:ambient/weather/thunder2",
-				"stream": true
-			},
-			{
-				"name": "dsurround:ambient/weather/thunder3",
-				"stream": true
-			},
-			{
-				"name": "dsurround:ambient/weather/thunder4",
-				"stream": true
-			},
-			{
-				"name": "dsurround:ambient/weather/thunder5",
-				"stream": true
-			},
-			{
-				"name": "dsurround:ambient/weather/thunder6",
-				"stream": true
-			}
-		]
-	},
-	"ice": {
-		"subtitle": "dsurround.sound.caption.ice",
-		"sounds": [
-			{
-				"name": "dsurround:ambient/ice/crack1",
-				"volume": 0.5
-			},
-			{
-				"name": "dsurround:ambient/ice/crack2",
-				"volume": 0.5
-			},
-			{
-				"name": "dsurround:ambient/ice/crack3",
-				"volume": 0.5
-			}
-		]
-	},
-	"biome.wind": {
-		"subtitle": "dsurround.sound.caption.wind",
-		"ds_credits": [
-			{
-				"name": "Wind blowing into some cactus spine, on the top of the mountain, in the desert of Atacama (Chile).",
-				"author": "felix.blume",
-				"website": "https://www.freesound.org/people/felix.blume",
-				"license": "Creative Commons 0"
-			}
-		],
-		"sounds": [
-			{
-				"name": "dsurround:ambient/outside/wind",
-				"stream": true
-			}
-		]
-	},
-	"biome.wind.hills": {
-		"subtitle": "dsurround.sound.caption.wind",
-		"ds_credits": [
-			{
-				"name": "Wind blowing into some cactus spine, on the top of the mountain, in the desert of Atacama (Chile).",
-				"author": "felix.blume",
-				"website": "https://www.freesound.org/people/felix.blume",
-				"license": "Creative Commons 0"
-			}
-		],
-		"sounds": [
-			{
-				"type": "event",
-				"name": "dsurround:biome.wind",
-				"volume": 0.2,
-				"pitch": 1.5,
-				"stream": true
-			}
-		]
-	},
-	"biome.wind.mountains": {
-		"subtitle": "dsurround.sound.caption.wind",
-		"ds_credits": [
-			{
-				"name": "Wind blowing into some cactus spine, on the top of the mountain, in the desert of Atacama (Chile).",
-				"author": "felix.blume",
-				"website": "https://www.freesound.org/people/felix.blume",
-				"license": "Creative Commons 0"
-			}
-		],
-		"sounds": [
-			{
-				"type": "event",
-				"name": "dsurround:biome.wind",
-				"stream": true
-			}
-		]
-	},
-	"biome.wind.desert": {
-		"subtitle": "dsurround.sound.caption.wind",
-		"ds_credits": [
-			{
-				"name": "desertwind1FINAL.wav",
-				"author": "nageor",
-				"website": "https://www.freesound.org/people/nageor",
-				"license": "Creative Commons 0"
-			}
-		],
-		"sounds": [
-			{
-				"name": "dsurround:ambient/outside/desert_wind",
-				"stream": true
-			}
-		]
-	},
-	"biome.wind.arctic": {
-		"subtitle": "dsurround.sound.caption.wind",
-		"ds_credits": [
-			{
-				"name": "Howling Wind Ambience",
-				"author": "DBlover",
-				"website": "https://www.freesound.org/people/DBlover",
-				"license": "Creative Commons 0"
-			}
-		],
-		"sounds": [
-			{
-				"name": "dsurround:ambient/outside/arctic_wind",
-				"stream": true
-			}
-		]
-	},
-	"biome.savanna.day": {
-		"ds_credits": [
-			{
-				"name": "MerlothPark_morning_ambiance.wav",
-				"author": "reinsamba",
-				"website": "https://www.freesound.org/people/reinsamba",
-				"license": "Attribution"
-			}
-		],
-		"sounds": [
-			{
-				"name": "dsurround:ambient/outside/savanna_day",
-				"stream": true
-			}
-		]
-	},
-	"biome.savanna.night": {
-		"ds_credits": [
-			{
-				"name": "MerlothPark_crickets2.WAV",
-				"author": "reinsamba",
-				"website": "https://www.freesound.org/people/reinsamba",
-				"license": "Attribution"
-			}
-		],
-		"sounds": [
-			{
-				"name": "dsurround:ambient/outside/savanna_night",
-				"stream": true
-			}
-		]
-	},
-	"biome.crickets": {
-		"ds_credits": [
-			{
-				"name": "Soft, Chilled Crickets Field Recording",
-				"author": "rayjensen",
-				"website": "https://www.freesound.org/people/rayjensen",
-				"license": "Creative Commons 0"
-			}
-		],
-		"sounds": [
-			{
-				"name": "dsurround:ambient/outside/crickets",
-				"stream": true
-			}
-		]
-	},
-	"biome.crickets.deep": {
-		"sounds": [
-			{
-				"name": "dsurround:ambient/outside/deep_crickets",
-				"stream": true
-			}
-		]
-	},
-	"biome.plains": {
-		"ds_credits": [
-			{
-				"name": "Calm Morning Outdoor Ambiance",
-				"author": "blouhond",
-				"website": "https://www.freesound.org/people/blouhond",
-				"license": "Attribution"
-			}
-		],
-		"sounds": [
-			{
-				"name": "dsurround:ambient/outside/plains",
-				"stream": true
-			}
-		]
-	},
-	"biome.forest": {
-		"ds_credits": [
-			{
-				"name": "001_forrest.wav",
-				"author": "joepsporck",
-				"website": "https://www.freesound.org/people/joepsporck",
-				"license": "Creative Commons 0"
-			}
-		],
-		"sounds": [
-			{
-				"name": "dsurround:ambient/outside/forest",
-				"stream": true
-			}
-		]
-	},
-	"biome.forest.deep": {
-		"sounds": [
-			{
-				"name": "dsurround:ambient/outside/deep_forest",
-				"stream": true
-			}
-		]
-	},
-	"biome.forest.pine": {
-		"ds_credits": [
-			{
-				"name": "Nord_Odal_Nyhus_04_juni_2011_open_forest_birds_insects_wind_through_large_pines.wav",
-				"author": "nfsgit",
-				"website": "https://www.freesound.org/people/nfsgit",
-				"license": "Creative Commons 0"
-			}
-		],
-		"sounds": [
-			{
-				"name": "dsurround:ambient/outside/pine_forest",
-				"stream": true
-			}
-		]
-	},
-	"biome.forest.silent": {
-		"ds_credits": [
-			{
-				"name": "Silent forest",
-				"author": "ZHRØ",
-				"website": "https://freesound.org/people/ZHR%C3%98",
-				"license": "Creative Commons 0"
-			}
-		],
-		"sounds": [
-			{
-				"name": "dsurround:ambient/outside/silent_forest",
-				"stream": true
-			}
-		]
-	},
-	"biome.beach": {
-		"ds_credits": [
-			{
-				"name": "Fiji Beach (Stereo)128kbps.mp3",
-				"author": "c97059890",
-				"website": "https://www.freesound.org/people/c97059890",
-				"license": "Creative Commons 0"
-			}
-		],
-		"sounds": [
-			{
-				"name": "dsurround:ambient/outside/beach",
-				"stream": true
-			}
-		]
-	},
-	"biome.ocean": {
-		"ds_credits": [
-			{
-				"name": "ocean waves surround me.wav",
-				"author": "bohitomi",
-				"website": "https://www.freesound.org/people/bohitomi",
-				"license": "Attribution"
-			}
-		],
-		"sounds": [
-			{
-				"name": "dsurround:ambient/outside/ocean",
-				"volume": 0.4,
-				"stream": true
-			}
-		]
-	},
-	"biome.ocean.deep": {
-		"ds_credits": [
-			{
-				"name": "ocean waves surround me.wav",
-				"author": "bohitomi",
-				"website": "https://www.freesound.org/people/bohitomi",
-				"license": "Attribution"
-			}
-		],
-		"sounds": [
-			{
-				"type": "event",
-				"name": "dsurround:biome.ocean",
-				"pitch": 0.7,
-				"stream": true
-			}
-		]
-	},
-	"biome.river": {
-		"ds_credits": [
-			{
-				"name": "underwater ambience.wav",
-				"author": "AlienXXX",
-				"website": "https://freesound.org/people/AlienXXX",
-				"license": "Attribution"
-			}
-		],
-		"sounds": [
-			{
-				"name": "dsurround:ambient/outside/river",
-				"stream": true
-			}
-		]
-	},
-	"biome.bog": {
-		"ds_credits": [
-			{
-				"name": "rbh Mpls Bog birds.wav",
-				"author": "RHumphries",
-				"website": "https://freesound.org/people/RHumphries",
-				"license": "Attribution"
-			}
-		],
-		"sounds": [
-			{
-				"name": "dsurround:ambient/outside/bog",
-				"stream": true
-			}
-		]
-	},
-	"biome.jungle": {
-		"sounds": [
-			{
-				"name": "dsurround:ambient/outside/jungle",
-				"volume": 0.2,
-				"pitch": 0.8,
-				"stream": true
-			}
-		]
-	},
-	"soulsand.laughter": {
-		"subtitle": "dsurround.sound.caption.soulsand",
-		"sounds": [
-			{
-				"name": "dsurround:ambient/soulsand/soulsand1",
-				"volume": 0.2
-			},
-			{
-				"name": "dsurround:ambient/soulsand/soulsand2",
-				"volume": 0.2
-			},
-			{
-				"name": "dsurround:ambient/soulsand/soulsand3",
-				"volume": 0.2
-			}
-		]
-	},
-	"dimension.theend": {
-		"sounds": [
-			{
-				"name": "dsurround:ambient/end/end",
-				"volume": 0.2,
-				"stream": true
-			}
-		]
-	},
-	"bird": {
-		"subtitle": "dsurround.sound.caption.bird",
-		"sounds": [
-			"dsurround:ambient/birds/bird1",
-			"dsurround:ambient/birds/bird2",
-			"dsurround:ambient/birds/bird3",
-			"dsurround:ambient/birds/bird4",
-			"dsurround:ambient/birds/bird5",
-			"dsurround:ambient/birds/bird6",
-			"dsurround:ambient/birds/bird7",
-			"dsurround:ambient/birds/bird8",
-			"dsurround:ambient/birds/bird9",
-			"dsurround:ambient/birds/bird10"
-		]
-	},
-	"woodpecker": {
-		"subtitle": "dsurround.sound.caption.woodpecker",
-		"sounds": [
-			"dsurround:ambient/birds/woodpecker1",
-			"dsurround:ambient/birds/woodpecker2",
-			"dsurround:ambient/birds/woodpecker3",
-			"dsurround:ambient/birds/woodpecker4",
-			"dsurround:ambient/birds/woodpecker5"
-		]
-	},
-	"raptor": {
-		"subtitle": "dsurround.sound.caption.raptor",
-		"sounds": [
-			{
-				"name": "dsurround:ambient/birds/bald_eagle_chirp",
-				"weight": 2
-			},
-			{
-				"name": "dsurround:ambient/birds/red_tailed_hawk",
-				"weight": 1
-			},
-			{
-				"name": "dsurround:ambient/birds/red_shouldered_hawk",
-				"weight": 2
-			}
-		]
-	},
-	"crow": {
-		"subtitle": "dsurround.sound.caption.crow",
-		"ds_credits": [
-			{
-				"name": "ANML_M_Ext_Crow_Calls_Single1.wav",
-				"author": "conleec",
-				"website": "https://www.freesound.org/people/conleec",
-				"license": "Creative Commons 0"
-			}
-		],
-		"sounds": [
-			"dsurround:ambient/birds/crow1",
-			"dsurround:ambient/birds/crow2",
-			"dsurround:ambient/birds/crow3",
-			"dsurround:ambient/birds/crow4",
-			"dsurround:ambient/birds/crow5",
-			"dsurround:ambient/birds/crow6",
-			"dsurround:ambient/birds/crow7",
-			"dsurround:ambient/birds/crow8",
-			"dsurround:ambient/birds/crow9",
-			"dsurround:ambient/birds/crow10"
-		]
-	},
-	"owl": {
-		"subtitle": "dsurround.sound.caption.owl",
-		"sounds": [
-			{
-				"name": "dsurround:ambient/owl/owl1",
-				"volume": 0.3
-			},
-			{
-				"name": "dsurround:ambient/owl/owl2",
-				"volume": 0.3
-			},
-			{
-				"name": "dsurround:ambient/owl/owl3",
-				"volume": 0.3
-			}
-		]
-	},
-	"loon": {
-		"subtitle": "dsurround.sound.caption.loon",
-		"sounds": [
-			{
-				"name": "dsurround:ambient/birds/loon1"
-			},
-			{
-				"name": "dsurround:ambient/birds/loon2"
-			}
-		]
-	},
-	"nightingale": {
-		"subtitle": "dsurround.sound.caption.nightingale",
-		"sounds": [
-			{
-				"name": "dsurround:ambient/birds/nightingale1"
-			},
-			{
-				"name": "dsurround:ambient/birds/nightingale2"
-			},
-			{
-				"name": "dsurround:ambient/birds/nightingale3"
-			},
-			{
-				"name": "dsurround:ambient/birds/nightingale4"
-			}
-		]
-	},
-	"turtledove": {
-		"subtitle": "dsurround.sound.caption.turtledove",
-		"ds_credits": [
-			{
-				"name": "turtledove sounds",
-				"author": "csengeri",
-				"website": "https://www.freesound.org/people/csengeri",
-				"license": "Creative Commons 0"
-			}
-		],
-		"sounds": [
-			"dsurround:ambient/birds/turtledove1",
-			"dsurround:ambient/birds/turtledove2",
-			"dsurround:ambient/birds/turtledove3"
-		]
-	},
-	"biome.underground": {
-		"sounds": [
-			{
-				"name": "dsurround:ambient/underground/ambient",
-				"volume": 0.3,
-				"stream": true
-			}
-		]
-	},
-	"rockfall": {
-		"subtitle": "dsurround.sound.caption.rockfall",
-		"ds_credits": [
-			{
-				"name": "Rocks falling over rocks, over a steep hill, like a cliff.flac",
-				"author": "gfrog",
-				"website": "https://www.freesound.org/people/gfrog",
-				"license": "Creative Commons 0"
-			},
-			{
-				"name": "Rocks.wav",
-				"author": "adamgryu",
-				"website": "https://www.freesound.org/people/adamgryu",
-				"license": "Creative Commons 0"
-			}
-		],
-		"sounds": [
-			"dsurround:ambient/underground/smallslide1",
-			"dsurround:ambient/underground/smallslide2",
-			"dsurround:ambient/underground/smallslide3"
-		]
-	},
-	"bigrockfall": {
-		"subtitle": "dsurround.sound.caption.rockfall",
-		"ds_credits": [
-			{
-				"name": "Rockfall in mine.wav",
-				"author": "Benboncan",
-				"website": "https://www.freesound.org/people/Benboncan",
-				"license": "Attribution"
-			},
-			{
-				"name": "Rocks.wav",
-				"author": "adamgryu",
-				"website": "https://www.freesound.org/people/adamgryu",
-				"license": "Creative Commons 0"
-			}
-		],
-		"sounds": [
-			{
-				"name": "dsurround:ambient/underground/bigslide1",
-				"volume": 0.4
-			},
-			{
-				"name": "dsurround:ambient/underground/bigslide2",
-				"volume": 0.4
-			}
-		]
-	},
-	"monstergrowl": {
-		"subtitle": "dsurround.sound.caption.monstergrowl",
-		"sounds": [
-			{
-				"name": "dsurround:ambient/underground/monster_growl1",
-				"volume": 0.3
-			}
-		]
-	},
-	"waterdrops": {
-		"subtitle": "dsurround.sound.caption.waterdrop",
-		"sounds": [
-			"dsurround:ambient/droplets/water1",
-			"dsurround:ambient/droplets/water2",
-			"dsurround:ambient/droplets/water3"
-		]
-	},
-	"waterdrips": {
-		"subtitle": "dsurround.sound.caption.waterdrop",
-		"ds_credits": [
-			{
-				"name": "Dripping, Very Fast, A.wav",
-				"author": "InspectorJ",
-				"website": "https://www.freesound.org/people/InspectorJ",
-				"license": "Attribution"
-			}
-		],
-		"sounds": [
-			"dsurround:ambient/droplets/drop1",
-			"dsurround:ambient/droplets/drop2",
-			"dsurround:ambient/droplets/drop3",
-			"dsurround:ambient/droplets/drop3"
-		]
-	},
-	"seagulls": {
-		"subtitle": "dsurround.sound.caption.seagulls",
-		"sounds": [
-			{
-				"name": "dsurround:ambient/seagulls/seagulls1",
-				"volume": 0.3
-			},
-			{
-				"name": "dsurround:ambient/seagulls/seagulls2",
-				"volume": 0.3
-			}
-		]
-	},
-	"coyote": {
-		"subtitle": "dsurround.sound.caption.howling",
-		"ds_credits": [
-			{
-				"name": "coyote barks and howls",
-				"author": "dkaufman",
-				"website": "https://www.freesound.org/people/dkaufman",
-				"license": "Creative Commons 0"
-			}
-		],
-		"sounds": [
-			"dsurround:ambient/coyote/coyote1",
-			"dsurround:ambient/coyote/coyote2",
-			"dsurround:ambient/coyote/coyote3",
-			"dsurround:ambient/coyote/coyote4",
-			"dsurround:ambient/coyote/coyote5",
-			"dsurround:ambient/coyote/coyote6"
-		]
-	},
-	"wolf": {
-		"subtitle": "dsurround.sound.caption.howling",
-		"sounds": [
-			{
-				"name": "dsurround:ambient/wolf/wolf1",
-				"volume": 0.3
-			},
-			{
-				"name": "dsurround:ambient/wolf/wolf2",
-				"volume": 0.3
-			},
-			{
-				"name": "dsurround:ambient/wolf/wolf3",
-				"volume": 0.3
-			},
-			{
-				"name": "dsurround:ambient/wolf/wolf4",
-				"volume": 0.3
-			}
-		]
-	},
-	"biome.ocean.deep.under": {
-		"ds_credits": [
-			{
-				"name": "underwater ambience.wav",
-				"author": "AlienXXX",
-				"website": "https://www.freesound.org/people/AlienXXX",
-				"license": "Attribution"
-			}
-		],
-		"sounds": [
-			{
-				"name": "dsurround:ambient/underwater/deepocean",
-				"stream": true
-			}
-		]
-	},
-	"biome.ocean.under": {
-		"ds_credits": [
-			{
-				"name": "underwater ambience.wav",
-				"author": "AlienXXX",
-				"website": "https://www.freesound.org/people/AlienXXX",
-				"license": "Attribution"
-			}
-		],
-		"sounds": [
-			{
-				"name": "dsurround:ambient/underwater/ocean",
-				"stream": true
-			}
-		]
-	},
-	"biome.river.under": {
-		"sounds": [
-			{
-				"name": "dsurround:ambient/underwater/river",
-				"stream": true
-			}
-		]
-	},
-	"biome.water.under": {
-		"ds_credits": [
-			{
-				"name": "UnderwaterDrowning01.wav",
-				"author": "Abolla",
-				"website": "https://www.freesound.org/people/Abolla",
-				"license": "Creative Commons 0"
-			}
-		],
-		"sounds": [
-			{
-				"name": "dsurround:ambient/underwater/water",
-				"stream": true
-			}
-		]
-	},
-	"whale": {
-		"sounds": [
-			{
-				"name": "dsurround:ambient/whale/whale1",
-				"volume": 0.3
-			},
-			{
-				"name": "dsurround:ambient/whale/whale2",
-				"volume": 0.3
-			},
-			{
-				"name": "dsurround:ambient/whale/whale3",
-				"volume": 0.3
-			},
-			{
-				"name": "dsurround:ambient/whale/whale4",
-				"volume": 0.3
-			},
-			{
-				"name": "dsurround:ambient/whale/whale5",
-				"volume": 0.3
-			}
-		]
-	},
-	"player.heartbeat": {
-		"sounds": [
-			"dsurround:ambient/steve/heartbeat"
-		]
-	},
-	"player.tummy": {
-		"subtitle": "dsurround.sound.caption.tummy",
-		"sounds": [
-			"dsurround:ambient/steve/tummy1",
-			"dsurround:ambient/steve/tummy2",
-			"dsurround:ambient/steve/tummy3"
-		]
-	},
-	"netherbrick.breathing": {
-		"subtitle": "dsurround.sound.caption.breathing",
-		"sounds": [
-			{
-				"name": "dsurround:ambient/miscblocks/breathing1",
-				"volume": 0.5
-			},
-			{
-				"name": "dsurround:ambient/miscblocks/breathing2",
-				"volume": 0.5
-			}
-		]
-	},
-	"player.jump": {
-		"sounds": [
-			{
-				"name": "dsurround:ambient/steve/jump",
-				"volume": 0.8
-			}
-		]
-	},
-	"bees": {
-		"subtitle": "dsurround.sound.caption.bees",
-		"sounds": [
-			{
-				"name": "dsurround:ambient/insects/bee1",
-				"volume": 0.05
-			}
-		]
-	},
-	"insectcrawl": {
-		"subtitle": "dsurround.sound.caption.insects",
-		"sounds": [
-			"dsurround:ambient/insects/crawl1",
-			"dsurround:ambient/insects/crawl2",
-			"dsurround:ambient/insects/crawl3"
-		]
-	},
-	"newsprint": {
-		"subtitle": "dsurround.sound.caption.pageflip",
-		"sounds": [
-			"dsurround:ambient/book/newsprint1",
-			"dsurround:ambient/book/newsprint2"
-		]
-	},
-	"pageflip": {
-		"subtitle": "dsurround.sound.caption.pageflip",
-		"sounds": [
-			"dsurround:ambient/book/pageflip1",
-			"dsurround:ambient/book/pageflip2",
-			"dsurround:ambient/book/pageflip3"
-		]
-	},
-	"pageflipheavy": {
-		"subtitle": "dsurround.sound.caption.pageflip",
-		"sounds": [
-			"dsurround:ambient/book/pageflipheavy1",
-			"dsurround:ambient/book/pageflipheavy2",
-			"dsurround:ambient/book/pageflipheavy3"
-		]
-	},
-	"electricarc": {
-		"subtitle": "dsurround.sound.caption.electricarc",
-		"sounds": [
-			"dsurround:ambient/electricity/electricarc1",
-			"dsurround:ambient/electricity/electricarc2",
-			"dsurround:ambient/electricity/electricarc3",
-			"dsurround:ambient/electricity/electricarc4",
-			"dsurround:ambient/electricity/electricarc5"
-		]
-	},
-	"bookshelf": {
-		"subtitle": "dsurround.sound.caption.pageflip",
-		"sounds": [
-			{
-				"name": "dsurround:ambient/book/newsprint1",
-				"volume": 0.175
-			},
-			{
-				"name": "dsurround:ambient/book/newsprint2",
-				"volume": 0.175
-			},
-			{
-				"name": "dsurround:ambient/book/pageflip1",
-				"volume": 0.175
-			},
-			{
-				"name": "dsurround:ambient/book/pageflip2",
-				"volume": 0.175
-			},
-			{
-				"name": "dsurround:ambient/book/pageflip3",
-				"volume": 0.175
-			},
-			{
-				"name": "dsurround:ambient/book/pageflipheavy1",
-				"volume": 0.175
-			},
-			{
-				"name": "dsurround:ambient/book/pageflipheavy2",
-				"volume": 0.175
-			},
-			{
-				"name": "dsurround:ambient/book/pageflipheavy3",
-				"volume": 0.175
-			}
-		]
-	},
-	"waterfall.0": {
-		"ds_credits": [
-			{
-				"name": "Waterfall Winspit Dorset.wav",
-				"author": "genghis attenborough",
-				"website": "https://www.freesound.org/people/genghis%20attenborough",
-				"license": "Attribution Noncommercial"
-			}
-		],
-		"sounds": [
-			{
-				"name": "dsurround:ambient/stream/waterfall0",
-				"attenuation_distance": 22,
-				"preload": true
-			}
-		]
-	},
-	"waterfall.1": {
-		"ds_credits": [
-			{
-				"name": "Running-water-mountain-stream.mp3",
-				"author": "Alexander",
-				"website": "https://orangefreesounds.com/running-water-sound-mountain-stream",
-				"license": "Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)"
-			}
-		],
-		"sounds": [
-			{
-				"name": "dsurround:ambient/stream/waterfall1",
-				"attenuation_distance": 22,
-				"preload": true
-			}
-		]
-	},
-	"waterfall.2": {
-		"ds_credits": [
-			{
-				"name": "Waterfall",
-				"author": "Orpheuz",
-				"website": "https://www.freesound.org/people/Orpheuz",
-				"license": "Creative Commons 0"
-			}
-		],
-		"sounds": [
-			{
-				"name": "dsurround:ambient/stream/waterfall2",
-				"attenuation_distance": 24,
-				"preload": true
-			}
-		]
-	},
-	"waterfall.3": {
-		"ds_credits": [
-			{
-				"name": "Small Waterfall at the Mill",
-				"author": "willstepp",
-				"website": "https://www.freesound.org/people/willstepp",
-				"license": "Creative Commons 0"
-			}
-		],
-		"sounds": [
-			{
-				"name": "dsurround:ambient/stream/waterfall3",
-				"attenuation_distance": 28,
-				"preload": true
-			}
-		]
-	},
-	"waterfall.4": {
-		"ds_credits": [
-			{
-				"name": "Waterfall, Large, A.wav",
-				"author": "InspectorJ",
-				"website": "https://www.freesound.org/people/InspectorJ",
-				"license": "Attribution"
-			}
-		],
-		"sounds": [
-			{
-				"name": "dsurround:ambient/stream/waterfall4",
-				"attenuation_distance": 30,
-				"preload": true
-			}
-		]
-	},
-	"waterfall.5": {
-		"ds_credits": [
-			{
-				"name": "Waterfall, Small, B.wav",
-				"author": "InspectorJ",
-				"website": "https://www.freesound.org/people/InspectorJ",
-				"license": "Attribution"
-			}
-		],
-		"sounds": [
-			{
-				"name": "dsurround:ambient/stream/waterfall5",
-				"attenuation_distance": 32,
-				"preload": true
-			}
-		]
-	},
-	"biome.village.rooster": {
-		"subtitle": "dsurround.sound.caption.rooster",
-		"ds_credits": [
-			{
-				"name": "Village ambience rooster and light birds with wind .wav",
-				"author": "Ramston",
-				"website": "https://www.freesound.org/people/Ramston",
-				"license": "Creative Commons 0"
-			}
-		],
-		"sounds": [
-			"dsurround:ambient/village/rooster1",
-			"dsurround:ambient/village/rooster2",
-			"dsurround:ambient/village/rooster3"
-		]
-	},
-	"biome.village.anvil": {
-		"subtitle": "dsurround.sound.caption.anvil",
-		"ds_credits": [
-			{
-				"name": "Anvil",
-				"author": "MrAuralization",
-				"website": "https://www.freesound.org/people/MrAuralization",
-				"license": "Attribution"
-			}
-		],
-		"sounds": [
-			{
-				"name": "dsurround:ambient/village/anvil1",
-				"volume": 0.25
-			},
-			{
-				"name": "dsurround:ambient/village/anvil2",
-				"volume": 0.25
-			}
-		]
-	},
-	"biome.village.dogbark": {
-		"subtitle": "dsurround.sound.caption.dog",
-		"ds_credits": [
-			{
-				"name": "Dogs Barking",
-				"author": "darranambler",
-				"website": "https://www.freesound.org/people/darranambler",
-				"license": "Creative Commons 0"
-			}
-		],
-		"sounds": [
-			"dsurround:ambient/village/dogbark1",
-			"dsurround:ambient/village/dogbark2",
-			"dsurround:ambient/village/dogbark3",
-			"dsurround:ambient/village/dogbark4",
-			"dsurround:ambient/village/dogbark5",
-			"dsurround:ambient/village/dogbark6"
-		]
-	},
-	"dimension.nether": {
-		"ds_credits": [
-			{
-				"name": "Creepy Dungeon Ambiance",
-				"author": "DrMinky",
-				"website": "https://www.freesound.org/people/DrMinky",
-				"license": "Attribution"
-			}
-		],
-		"sounds": [
-			{
-				"name": "dsurround:ambient/dimension/nether",
-				"volume": 0.3,
-				"stream": true
-			}
-		]
-	},
-	"item.bow.equip": {
-		"sounds": [
-			"dsurround:items/bow_draw"
-		]
-	},
-	"item.bow.pull": {
-		"subtitle": "dsurround.sound.caption.bow.pull",
-		"sounds": [
-			"dsurround:items/bow_pull1",
-			"dsurround:items/bow_pull2",
-			"dsurround:items/bow_pull3",
-			"dsurround:items/bow_pull4",
-			"dsurround:items/bow_pull5"
-		]
-	},
-	"item.bow.loose": {
-		"sounds": [
-			"dsurround:items/bow_loose1",
-			"dsurround:items/bow_loose2",
-			"dsurround:items/bow_loose3",
-			"dsurround:items/bow_loose4"
-		]
-	},
-	"item.blunt.equip": {
-		"sounds": [
-			"dsurround:items/blunt_draw"
-		]
-	},
-	"item.blunt.swing": {
-		"sounds": [
-			"dsurround:items/blunt_swing1",
-			"dsurround:items/blunt_swing2",
-			"dsurround:items/blunt_swing3",
-			"dsurround:items/blunt_swing4",
-			"dsurround:items/blunt_swing5"
-		]
-	},
-	"item.sword.equip": {
-		"sounds": [
-			"dsurround:items/sword_draw"
-		]
-	},
-	"item.sword.swing": {
-		"sounds": [
-			"dsurround:items/sword_swing1",
-			"dsurround:items/sword_swing2",
-			"dsurround:items/sword_swing3",
-			"dsurround:items/sword_swing4",
-			"dsurround:items/sword_swing5",
-			"dsurround:items/sword_swing6",
-			"dsurround:items/sword_swing7",
-			"dsurround:items/sword_swing8",
-			"dsurround:items/sword_swing9"
-		]
-	},
-	"item.tool.equip": {
-		"sounds": [
-			"dsurround:items/tool_draw"
-		]
-	},
-	"item.tool.swing": {
-		"sounds": [
-			"dsurround:items/swoosh1",
-			"dsurround:items/swoosh2",
-			"dsurround:items/swoosh3",
-			"dsurround:items/swoosh4",
-			"dsurround:items/swoosh5",
-			"dsurround:items/swoosh6",
-			"dsurround:items/swoosh7"
-		]
-	},
-	"item.utility.equip": {
-		"sounds": [
-			"dsurround:items/utility_draw"
-		]
-	},
-	"item.shield.equip": {
-		"sounds": [
-			"dsurround:items/tool_draw"
-		]
-	},
-	"item.shield.use": {
-		"sounds": [
-			"dsurround:items/tool_draw"
-		]
-	},
-	"item.potion.equip": {
-		"sounds": [
-			"dsurround:items/potion_slosh1",
-			"dsurround:items/potion_slosh2",
-			"dsurround:items/potion_slosh3",
-			"dsurround:items/potion_slosh4"
-		]
-	},
-	"footsteps.water_through": {
-		"ds_category": "player",
-		"subtitle": "dsurround.sound.caption.footsteps.water_through",
-		"sounds": [
-			"dsurround:footsteps/water/water_through1",
-			"dsurround:footsteps/water/water_through10",
-			"dsurround:footsteps/water/water_through11",
-			"dsurround:footsteps/water/water_through2",
-			"dsurround:footsteps/water/water_through3",
-			"dsurround:footsteps/water/water_through4",
-			"dsurround:footsteps/water/water_through5",
-			"dsurround:footsteps/water/water_through6",
-			"dsurround:footsteps/water/water_through7",
-			"dsurround:footsteps/water/water_through8",
-			"dsurround:footsteps/water/water_through9"
-		]
-	},
-	"footsteps.floor_squeak": {
-		"ds_category": "player",
-		"subtitle": "dsurround.sound.caption.footsteps.floor_squeak",
-		"sounds": [
-			{
-				"name": "dsurround:footsteps/floor_squeak/floorsqueak1",
-				"volume": 0.2
-			},
-			{
-				"name": "dsurround:footsteps/floor_squeak/floorsqueak2",
-				"volume": 0.2
-			},
-			{
-				"name": "dsurround:footsteps/floor_squeak/floorsqueak3",
-				"volume": 0.2
-			}
-		]
-	},
-	"footsteps.brush_through": {
-		"ds_category": "player",
-		"subtitle": "dsurround.sound.caption.footsteps.brush_through",
-		"sounds": [
-			"dsurround:footsteps/brush/brush_through1",
-			"dsurround:footsteps/brush/brush_through10",
-			"dsurround:footsteps/brush/brush_through11",
-			"dsurround:footsteps/brush/brush_through2",
-			"dsurround:footsteps/brush/brush_through3",
-			"dsurround:footsteps/brush/brush_through4",
-			"dsurround:footsteps/brush/brush_through5",
-			"dsurround:footsteps/brush/brush_through6",
-			"dsurround:footsteps/brush/brush_through7",
-			"dsurround:footsteps/brush/brush_through8",
-			"dsurround:footsteps/brush/brush_through9"
-		]
-	},
-	"footsteps.leaves_through": {
-		"ds_category": "player",
-		"subtitle": "dsurround.sound.caption.footsteps.leaves_through",
-		"sounds": [
-			"dsurround:footsteps/leaves/leaves_through1",
-			"dsurround:footsteps/leaves/leaves_through2",
-			"dsurround:footsteps/leaves/leaves_through3",
-			"dsurround:footsteps/leaves/leaves_through4",
-			"dsurround:footsteps/leaves/leaves_through5",
-			"dsurround:footsteps/leaves/leaves_through6",
-			"dsurround:footsteps/leaves/leaves_through7"
-		]
-	},
-	"footsteps.bluntwood": {
-		"ds_category": "player",
-		"subtitle": "dsurround.sound.caption.footsteps.bluntwood",
+	"fs.bluntwood.bluntwood_walk": {
+		"category": "player",
 		"sounds": [
 			"dsurround:footsteps/bluntwood/bluntwood_walk1",
 			"dsurround:footsteps/bluntwood/bluntwood_walk10",
@@ -1236,9 +15,117 @@
 			"dsurround:footsteps/bluntwood/bluntwood_walk9"
 		]
 	},
-	"footsteps.dirt": {
-		"ds_category": "player",
-		"subtitle": "dsurround.sound.caption.footsteps.dirt",
+	"fs.bluntwood.bluntwood_wander": {
+		"category": "player",
+		"sounds": [
+			"dsurround:footsteps/bluntwood/bluntwood_wander1",
+			"dsurround:footsteps/bluntwood/bluntwood_wander2",
+			"dsurround:footsteps/bluntwood/bluntwood_wander3",
+			"dsurround:footsteps/bluntwood/bluntwood_wander4",
+			"dsurround:footsteps/bluntwood/bluntwood_wander5"
+		]
+	},
+	"fs.brush.brush_through": {
+		"category": "player",
+		"sounds": [
+			"dsurround:footsteps/brush/brush_through1",
+			"dsurround:footsteps/brush/brush_through10",
+			"dsurround:footsteps/brush/brush_through11",
+			"dsurround:footsteps/brush/brush_through2",
+			"dsurround:footsteps/brush/brush_through3",
+			"dsurround:footsteps/brush/brush_through4",
+			"dsurround:footsteps/brush/brush_through5",
+			"dsurround:footsteps/brush/brush_through6",
+			"dsurround:footsteps/brush/brush_through7",
+			"dsurround:footsteps/brush/brush_through8",
+			"dsurround:footsteps/brush/brush_through9"
+		]
+	},
+	"fs.concrete.concrete_run": {
+		"category": "player",
+		"sounds": [
+			"dsurround:footsteps/concrete/concrete_run1",
+			"dsurround:footsteps/concrete/concrete_run10",
+			"dsurround:footsteps/concrete/concrete_run11",
+			"dsurround:footsteps/concrete/concrete_run2",
+			"dsurround:footsteps/concrete/concrete_run3",
+			"dsurround:footsteps/concrete/concrete_run4",
+			"dsurround:footsteps/concrete/concrete_run5",
+			"dsurround:footsteps/concrete/concrete_run6",
+			"dsurround:footsteps/concrete/concrete_run7",
+			"dsurround:footsteps/concrete/concrete_run8",
+			"dsurround:footsteps/concrete/concrete_run9"
+		]
+	},
+	"fs.concrete.concrete_walk": {
+		"category": "player",
+		"sounds": [
+			"dsurround:footsteps/concrete/concrete_walk1",
+			"dsurround:footsteps/concrete/concrete_walk10",
+			"dsurround:footsteps/concrete/concrete_walk11",
+			"dsurround:footsteps/concrete/concrete_walk2",
+			"dsurround:footsteps/concrete/concrete_walk3",
+			"dsurround:footsteps/concrete/concrete_walk4",
+			"dsurround:footsteps/concrete/concrete_walk5",
+			"dsurround:footsteps/concrete/concrete_walk6",
+			"dsurround:footsteps/concrete/concrete_walk7",
+			"dsurround:footsteps/concrete/concrete_walk8",
+			"dsurround:footsteps/concrete/concrete_walk9"
+		]
+	},
+	"fs.concrete.concrete_wander": {
+		"category": "player",
+		"sounds": [
+			"dsurround:footsteps/concrete/concrete_wander1",
+			"dsurround:footsteps/concrete/concrete_wander2",
+			"dsurround:footsteps/concrete/concrete_wander3",
+			"dsurround:footsteps/concrete/concrete_wander4",
+			"dsurround:footsteps/concrete/concrete_wander5"
+		]
+	},
+	"fs.deckwood.deckwood_run": {
+		"category": "player",
+		"sounds": [
+			"dsurround:footsteps/deckwood/deckwood_run1",
+			"dsurround:footsteps/deckwood/deckwood_run10",
+			"dsurround:footsteps/deckwood/deckwood_run11",
+			"dsurround:footsteps/deckwood/deckwood_run2",
+			"dsurround:footsteps/deckwood/deckwood_run3",
+			"dsurround:footsteps/deckwood/deckwood_run4",
+			"dsurround:footsteps/deckwood/deckwood_run5",
+			"dsurround:footsteps/deckwood/deckwood_run6",
+			"dsurround:footsteps/deckwood/deckwood_run7",
+			"dsurround:footsteps/deckwood/deckwood_run8",
+			"dsurround:footsteps/deckwood/deckwood_run9"
+		]
+	},
+	"fs.dirt.dirt_land": {
+		"category": "player",
+		"sounds": [
+			"dsurround:footsteps/dirt/dirt_land1",
+			"dsurround:footsteps/dirt/dirt_land2",
+			"dsurround:footsteps/dirt/dirt_land3",
+			"dsurround:footsteps/dirt/dirt_land4"
+		]
+	},
+	"fs.dirt.dirt_run": {
+		"category": "player",
+		"sounds": [
+			"dsurround:footsteps/dirt/dirt_run1",
+			"dsurround:footsteps/dirt/dirt_run10",
+			"dsurround:footsteps/dirt/dirt_run11",
+			"dsurround:footsteps/dirt/dirt_run2",
+			"dsurround:footsteps/dirt/dirt_run3",
+			"dsurround:footsteps/dirt/dirt_run4",
+			"dsurround:footsteps/dirt/dirt_run5",
+			"dsurround:footsteps/dirt/dirt_run6",
+			"dsurround:footsteps/dirt/dirt_run7",
+			"dsurround:footsteps/dirt/dirt_run8",
+			"dsurround:footsteps/dirt/dirt_run9"
+		]
+	},
+	"fs.dirt.dirt_walk": {
+		"category": "player",
 		"sounds": [
 			"dsurround:footsteps/dirt/dirt_walk1",
 			"dsurround:footsteps/dirt/dirt_walk10",
@@ -1253,9 +140,40 @@
 			"dsurround:footsteps/dirt/dirt_walk9"
 		]
 	},
-	"footsteps.grass": {
-		"ds_category": "player",
-		"subtitle": "dsurround.sound.caption.footsteps.grass",
+	"fs.dirt.dirt_wander": {
+		"category": "player",
+		"sounds": [
+			"dsurround:footsteps/dirt/dirt_wander1",
+			"dsurround:footsteps/dirt/dirt_wander2",
+			"dsurround:footsteps/dirt/dirt_wander3",
+			"dsurround:footsteps/dirt/dirt_wander4",
+			"dsurround:footsteps/dirt/dirt_wander5"
+		]
+	},
+	"fs.glass.glass_hard": {
+		"category": "player",
+		"sounds": [
+			"dsurround:footsteps/glass/glass_hard1"
+		]
+	},
+	"fs.glass.glass_hit": {
+		"category": "player",
+		"sounds": [
+			"dsurround:footsteps/glass/glass_hit1",
+			"dsurround:footsteps/glass/glass_hit2"
+		]
+	},
+	"fs.grass.grass_run": {
+		"category": "player",
+		"sounds": [
+			"dsurround:footsteps/grass/grass_run1",
+			"dsurround:footsteps/grass/grass_run2",
+			"dsurround:footsteps/grass/grass_run3",
+			"dsurround:footsteps/grass/grass_run4"
+		]
+	},
+	"fs.grass.grass_walk": {
+		"category": "player",
 		"sounds": [
 			"dsurround:footsteps/grass/grass_walk1",
 			"dsurround:footsteps/grass/grass_walk10",
@@ -1269,9 +187,42 @@
 			"dsurround:footsteps/grass/grass_walk9"
 		]
 	},
-	"footsteps.gravel": {
-		"ds_category": "player",
-		"subtitle": "dsurround.sound.caption.footsteps.gravel",
+	"fs.grass.grass_wander": {
+		"category": "player",
+		"sounds": [
+			"dsurround:footsteps/grass/grass_wander1",
+			"dsurround:footsteps/grass/grass_wander2",
+			"dsurround:footsteps/grass/grass_wander3",
+			"dsurround:footsteps/grass/grass_wander4",
+			"dsurround:footsteps/grass/grass_wander5",
+			"dsurround:footsteps/grass/grass_wander6"
+		]
+	},
+	"fs.gravel.gravel_land": {
+		"category": "player",
+		"sounds": [
+			"dsurround:footsteps/gravel/gravel_land1",
+			"dsurround:footsteps/gravel/gravel_land2"
+		]
+	},
+	"fs.gravel.gravel_run": {
+		"category": "player",
+		"sounds": [
+			"dsurround:footsteps/gravel/gravel_run1",
+			"dsurround:footsteps/gravel/gravel_run10",
+			"dsurround:footsteps/gravel/gravel_run11",
+			"dsurround:footsteps/gravel/gravel_run2",
+			"dsurround:footsteps/gravel/gravel_run3",
+			"dsurround:footsteps/gravel/gravel_run4",
+			"dsurround:footsteps/gravel/gravel_run5",
+			"dsurround:footsteps/gravel/gravel_run6",
+			"dsurround:footsteps/gravel/gravel_run7",
+			"dsurround:footsteps/gravel/gravel_run8",
+			"dsurround:footsteps/gravel/gravel_run9"
+		]
+	},
+	"fs.gravel.gravel_walk": {
+		"category": "player",
 		"sounds": [
 			"dsurround:footsteps/gravel/gravel_walk1",
 			"dsurround:footsteps/gravel/gravel_walk10",
@@ -1286,147 +237,118 @@
 			"dsurround:footsteps/gravel/gravel_walk9"
 		]
 	},
-	"footsteps.mud": {
-		"ds_category": "player",
-		"subtitle": "dsurround.sound.caption.footsteps.mud",
+	"fs.gravel.gravel_wander": {
+		"category": "player",
 		"sounds": [
-			"dsurround:footsteps/mud/mud_walk1",
-			"dsurround:footsteps/mud/mud_walk2",
-			"dsurround:footsteps/mud/mud_walk3",
-			"dsurround:footsteps/mud/mud_walk4",
-			"dsurround:footsteps/mud/mud_walk5",
-			"dsurround:footsteps/mud/mud_walk6"
+			"dsurround:footsteps/gravel/gravel_wander1",
+			"dsurround:footsteps/gravel/gravel_wander2",
+			"dsurround:footsteps/gravel/gravel_wander3"
 		]
 	},
-	"footsteps.muffledice": {
-		"ds_category": "player",
-		"subtitle": "dsurround.sound.caption.footsteps.muffledice",
+	"fs.leaves.leaves_through": {
+		"category": "player",
 		"sounds": [
-			"dsurround:footsteps/muffledice/muffledice_walk1",
-			"dsurround:footsteps/muffledice/muffledice_walk10",
-			"dsurround:footsteps/muffledice/muffledice_walk2",
-			"dsurround:footsteps/muffledice/muffledice_walk3",
-			"dsurround:footsteps/muffledice/muffledice_walk4",
-			"dsurround:footsteps/muffledice/muffledice_walk5",
-			"dsurround:footsteps/muffledice/muffledice_walk6",
-			"dsurround:footsteps/muffledice/muffledice_walk7",
-			"dsurround:footsteps/muffledice/muffledice_walk8",
-			"dsurround:footsteps/muffledice/muffledice_walk9"
+			"dsurround:footsteps/leaves/leaves_through1",
+			"dsurround:footsteps/leaves/leaves_through2",
+			"dsurround:footsteps/leaves/leaves_through3",
+			"dsurround:footsteps/leaves/leaves_through4",
+			"dsurround:footsteps/leaves/leaves_through5",
+			"dsurround:footsteps/leaves/leaves_through6",
+			"dsurround:footsteps/leaves/leaves_through7"
 		]
 	},
-	"footsteps.organic": {
-		"ds_category": "player",
-		"subtitle": "dsurround.sound.caption.footsteps.organic",
+	"fs.lino.lino_run": {
+		"category": "player",
 		"sounds": [
-			"dsurround:footsteps/organic/organic_walk1",
-			"dsurround:footsteps/organic/organic_walk2",
-			"dsurround:footsteps/organic/organic_walk3",
-			"dsurround:footsteps/organic/organic_walk4"
+			"dsurround:footsteps/lino/lino_run1",
+			"dsurround:footsteps/lino/lino_run2",
+			"dsurround:footsteps/lino/lino_run3",
+			"dsurround:footsteps/lino/lino_run4",
+			"dsurround:footsteps/lino/lino_run5",
+			"dsurround:footsteps/lino/lino_run6"
 		]
 	},
-	"footsteps.sand": {
-		"ds_category": "player",
-		"subtitle": "dsurround.sound.caption.footsteps.sand",
+	"fs.lino.lino_walk": {
+		"category": "player",
 		"sounds": [
-			"dsurround:footsteps/sand/sand_walk1",
-			"dsurround:footsteps/sand/sand_walk10",
-			"dsurround:footsteps/sand/sand_walk11",
-			"dsurround:footsteps/sand/sand_walk2",
-			"dsurround:footsteps/sand/sand_walk3",
-			"dsurround:footsteps/sand/sand_walk4",
-			"dsurround:footsteps/sand/sand_walk5",
-			"dsurround:footsteps/sand/sand_walk6",
-			"dsurround:footsteps/sand/sand_walk7",
-			"dsurround:footsteps/sand/sand_walk8",
-			"dsurround:footsteps/sand/sand_walk9"
+			"dsurround:footsteps/lino/lino_walk1",
+			"dsurround:footsteps/lino/lino_walk2",
+			"dsurround:footsteps/lino/lino_walk3",
+			"dsurround:footsteps/lino/lino_walk4",
+			"dsurround:footsteps/lino/lino_walk5",
+			"dsurround:footsteps/lino/lino_walk6",
+			"dsurround:footsteps/lino/lino_walk7",
+			"dsurround:footsteps/lino/lino_walk8"
 		]
 	},
-	"footsteps.snow": {
-		"ds_category": "player",
-		"subtitle": "dsurround.sound.caption.footsteps.snow",
+	"fs.marble.marble_run": {
+		"category": "player",
 		"sounds": [
-			"dsurround:footsteps/snow/snow_walk1",
-			"dsurround:footsteps/snow/snow_walk10",
-			"dsurround:footsteps/snow/snow_walk11",
-			"dsurround:footsteps/snow/snow_walk2",
-			"dsurround:footsteps/snow/snow_walk3",
-			"dsurround:footsteps/snow/snow_walk4",
-			"dsurround:footsteps/snow/snow_walk5",
-			"dsurround:footsteps/snow/snow_walk6",
-			"dsurround:footsteps/snow/snow_walk7",
-			"dsurround:footsteps/snow/snow_walk8",
-			"dsurround:footsteps/snow/snow_walk9"
+			"dsurround:footsteps/marble/marble_run1",
+			"dsurround:footsteps/marble/marble_run10",
+			"dsurround:footsteps/marble/marble_run11",
+			"dsurround:footsteps/marble/marble_run2",
+			"dsurround:footsteps/marble/marble_run3",
+			"dsurround:footsteps/marble/marble_run4",
+			"dsurround:footsteps/marble/marble_run5",
+			"dsurround:footsteps/marble/marble_run6",
+			"dsurround:footsteps/marble/marble_run7",
+			"dsurround:footsteps/marble/marble_run8",
+			"dsurround:footsteps/marble/marble_run9"
 		]
 	},
-	"footsteps.stone": {
-		"ds_category": "player",
-		"subtitle": "dsurround.sound.caption.footsteps.stone",
+	"fs.marble.marble_walk": {
+		"category": "player",
 		"sounds": [
-			"dsurround:footsteps/stone/stone_walk1",
-			"dsurround:footsteps/stone/stone_walk10",
-			"dsurround:footsteps/stone/stone_walk11",
-			"dsurround:footsteps/stone/stone_walk2",
-			"dsurround:footsteps/stone/stone_walk3",
-			"dsurround:footsteps/stone/stone_walk4",
-			"dsurround:footsteps/stone/stone_walk5",
-			"dsurround:footsteps/stone/stone_walk6",
-			"dsurround:footsteps/stone/stone_walk7",
-			"dsurround:footsteps/stone/stone_walk8",
-			"dsurround:footsteps/stone/stone_walk9"
+			"dsurround:footsteps/marble/marble_walk1",
+			"dsurround:footsteps/marble/marble_walk10",
+			"dsurround:footsteps/marble/marble_walk11",
+			"dsurround:footsteps/marble/marble_walk2",
+			"dsurround:footsteps/marble/marble_walk3",
+			"dsurround:footsteps/marble/marble_walk4",
+			"dsurround:footsteps/marble/marble_walk5",
+			"dsurround:footsteps/marble/marble_walk6",
+			"dsurround:footsteps/marble/marble_walk7",
+			"dsurround:footsteps/marble/marble_walk8",
+			"dsurround:footsteps/marble/marble_walk9"
 		]
 	},
-	"footsteps.wood": {
-		"ds_category": "player",
-		"subtitle": "dsurround.sound.caption.footsteps.wood",
+	"fs.marble.marble_wander": {
+		"category": "player",
 		"sounds": [
-			"dsurround:footsteps/wood/wood_walk1",
-			"dsurround:footsteps/wood/wood_walk10",
-			"dsurround:footsteps/wood/wood_walk11",
-			"dsurround:footsteps/wood/wood_walk2",
-			"dsurround:footsteps/wood/wood_walk3",
-			"dsurround:footsteps/wood/wood_walk4",
-			"dsurround:footsteps/wood/wood_walk5",
-			"dsurround:footsteps/wood/wood_walk6",
-			"dsurround:footsteps/wood/wood_walk7",
-			"dsurround:footsteps/wood/wood_walk8",
-			"dsurround:footsteps/wood/wood_walk9"
+			"dsurround:footsteps/marble/marble_wander1",
+			"dsurround:footsteps/marble/marble_wander2",
+			"dsurround:footsteps/marble/marble_wander3",
+			"dsurround:footsteps/marble/marble_wander4",
+			"dsurround:footsteps/marble/marble_wander5",
+			"dsurround:footsteps/marble/marble_wander6",
+			"dsurround:footsteps/marble/marble_wander7"
 		]
 	},
-	"footsteps.log": {
-		"ds_category": "player",
-		"subtitle": "dsurround.sound.caption.footsteps.log",
+	"fs.metalbar.metalbar_land": {
+		"category": "player",
 		"sounds": [
-			"dsurround:footsteps/wood/log_walk1",
-			"dsurround:footsteps/wood/log_walk10",
-			"dsurround:footsteps/wood/log_walk11",
-			"dsurround:footsteps/wood/log_walk2",
-			"dsurround:footsteps/wood/log_walk3",
-			"dsurround:footsteps/wood/log_walk4",
-			"dsurround:footsteps/wood/log_walk5",
-			"dsurround:footsteps/wood/log_walk6",
-			"dsurround:footsteps/wood/log_walk7",
-			"dsurround:footsteps/wood/log_walk8",
-			"dsurround:footsteps/wood/log_walk9"
+			"dsurround:footsteps/metalbar/metalbar_land1"
 		]
 	},
-	"footsteps.metalbox": {
-		"ds_category": "player",
-		"subtitle": "dsurround.sound.caption.footsteps.metalbox",
+	"fs.metalbar.metalbar_run": {
+		"category": "player",
 		"sounds": [
-			"dsurround:footsteps/metalbox/metalbox_walk1",
-			"dsurround:footsteps/metalbox/metalbox_walk2",
-			"dsurround:footsteps/metalbox/metalbox_walk3",
-			"dsurround:footsteps/metalbox/metalbox_walk4",
-			"dsurround:footsteps/metalbox/metalbox_walk5",
-			"dsurround:footsteps/metalbox/metalbox_walk6",
-			"dsurround:footsteps/metalbox/metalbox_walk7",
-			"dsurround:footsteps/metalbox/metalbox_walk8",
-			"dsurround:footsteps/metalbox/metalbox_walk9"
+			"dsurround:footsteps/metalbar/metalbar_run1",
+			"dsurround:footsteps/metalbar/metalbar_run10",
+			"dsurround:footsteps/metalbar/metalbar_run11",
+			"dsurround:footsteps/metalbar/metalbar_run2",
+			"dsurround:footsteps/metalbar/metalbar_run3",
+			"dsurround:footsteps/metalbar/metalbar_run4",
+			"dsurround:footsteps/metalbar/metalbar_run5",
+			"dsurround:footsteps/metalbar/metalbar_run6",
+			"dsurround:footsteps/metalbar/metalbar_run7",
+			"dsurround:footsteps/metalbar/metalbar_run8",
+			"dsurround:footsteps/metalbar/metalbar_run9"
 		]
 	},
-	"footsteps.metalbar": {
-		"ds_category": "player",
-		"subtitle": "dsurround.sound.caption.footsteps.metalbar",
+	"fs.metalbar.metalbar_walk": {
+		"category": "player",
 		"sounds": [
 			"dsurround:footsteps/metalbar/metalbar_walk1",
 			"dsurround:footsteps/metalbar/metalbar_walk10",
@@ -1441,9 +363,108 @@
 			"dsurround:footsteps/metalbar/metalbar_walk9"
 		]
 	},
-	"footsteps.rug": {
-		"ds_category": "player",
-		"subtitle": "dsurround.sound.caption.footsteps.rug",
+	"fs.metalbar.metalbar_wander": {
+		"category": "player",
+		"sounds": [
+			"dsurround:footsteps/metalbar/metalbar_wander1",
+			"dsurround:footsteps/metalbar/metalbar_wander2",
+			"dsurround:footsteps/metalbar/metalbar_wander3",
+			"dsurround:footsteps/metalbar/metalbar_wander4",
+			"dsurround:footsteps/metalbar/metalbar_wander5",
+			"dsurround:footsteps/metalbar/metalbar_wander6"
+		]
+	},
+	"fs.metalbox.metalbox_run": {
+		"category": "player",
+		"sounds": [
+			"dsurround:footsteps/metalbox/metalbox_run1",
+			"dsurround:footsteps/metalbox/metalbox_run10",
+			"dsurround:footsteps/metalbox/metalbox_run2",
+			"dsurround:footsteps/metalbox/metalbox_run3",
+			"dsurround:footsteps/metalbox/metalbox_run4",
+			"dsurround:footsteps/metalbox/metalbox_run5",
+			"dsurround:footsteps/metalbox/metalbox_run6",
+			"dsurround:footsteps/metalbox/metalbox_run7",
+			"dsurround:footsteps/metalbox/metalbox_run8",
+			"dsurround:footsteps/metalbox/metalbox_run9"
+		]
+	},
+	"fs.metalbox.metalbox_walk": {
+		"category": "player",
+		"sounds": [
+			"dsurround:footsteps/metalbox/metalbox_walk1",
+			"dsurround:footsteps/metalbox/metalbox_walk2",
+			"dsurround:footsteps/metalbox/metalbox_walk3",
+			"dsurround:footsteps/metalbox/metalbox_walk4",
+			"dsurround:footsteps/metalbox/metalbox_walk5",
+			"dsurround:footsteps/metalbox/metalbox_walk6",
+			"dsurround:footsteps/metalbox/metalbox_walk7",
+			"dsurround:footsteps/metalbox/metalbox_walk8",
+			"dsurround:footsteps/metalbox/metalbox_walk9"
+		]
+	},
+	"fs.metalbox.metalbox_wander": {
+		"category": "player",
+		"sounds": [
+			"dsurround:footsteps/metalbox/metalbox_wander1",
+			"dsurround:footsteps/metalbox/metalbox_wander2",
+			"dsurround:footsteps/metalbox/metalbox_wander3",
+			"dsurround:footsteps/metalbox/metalbox_wander4"
+		]
+	},
+	"fs.mud.mud_walk": {
+		"category": "player",
+		"sounds": [
+			"dsurround:footsteps/mud/mud_walk1",
+			"dsurround:footsteps/mud/mud_walk2",
+			"dsurround:footsteps/mud/mud_walk3",
+			"dsurround:footsteps/mud/mud_walk4",
+			"dsurround:footsteps/mud/mud_walk5",
+			"dsurround:footsteps/mud/mud_walk6"
+		]
+	},
+	"fs.mud.mud_wander": {
+		"category": "player",
+		"sounds": [
+			"dsurround:footsteps/mud/mud_wander1",
+			"dsurround:footsteps/mud/mud_wander2",
+			"dsurround:footsteps/mud/mud_wander3",
+			"dsurround:footsteps/mud/mud_wander4"
+		]
+	},
+	"fs.muffledice.muffledice_walk": {
+		"category": "player",
+		"sounds": [
+			"dsurround:footsteps/muffledice/muffledice_walk1",
+			"dsurround:footsteps/muffledice/muffledice_walk10",
+			"dsurround:footsteps/muffledice/muffledice_walk2",
+			"dsurround:footsteps/muffledice/muffledice_walk3",
+			"dsurround:footsteps/muffledice/muffledice_walk4",
+			"dsurround:footsteps/muffledice/muffledice_walk5",
+			"dsurround:footsteps/muffledice/muffledice_walk6",
+			"dsurround:footsteps/muffledice/muffledice_walk7",
+			"dsurround:footsteps/muffledice/muffledice_walk8",
+			"dsurround:footsteps/muffledice/muffledice_walk9"
+		]
+	},
+	"fs.quicksand.quicksand_walk": {
+		"category": "player",
+		"sounds": [
+			"dsurround:footsteps/quicksand/quicksand_walk1",
+			"dsurround:footsteps/quicksand/quicksand_walk10",
+			"dsurround:footsteps/quicksand/quicksand_walk11",
+			"dsurround:footsteps/quicksand/quicksand_walk2",
+			"dsurround:footsteps/quicksand/quicksand_walk3",
+			"dsurround:footsteps/quicksand/quicksand_walk4",
+			"dsurround:footsteps/quicksand/quicksand_walk5",
+			"dsurround:footsteps/quicksand/quicksand_walk6",
+			"dsurround:footsteps/quicksand/quicksand_walk7",
+			"dsurround:footsteps/quicksand/quicksand_walk8",
+			"dsurround:footsteps/quicksand/quicksand_walk9"
+		]
+	},
+	"fs.rug.rug_walk": {
+		"category": "player",
 		"sounds": [
 			"dsurround:footsteps/rug/rug_walk1",
 			"dsurround:footsteps/rug/rug_walk10",
@@ -1458,9 +479,777 @@
 			"dsurround:footsteps/rug/rug_walk9"
 		]
 	},
+	"fs.sand.sand_run": {
+		"category": "player",
+		"sounds": [
+			"dsurround:footsteps/sand/sand_run1",
+			"dsurround:footsteps/sand/sand_run10",
+			"dsurround:footsteps/sand/sand_run11",
+			"dsurround:footsteps/sand/sand_run2",
+			"dsurround:footsteps/sand/sand_run3",
+			"dsurround:footsteps/sand/sand_run4",
+			"dsurround:footsteps/sand/sand_run5",
+			"dsurround:footsteps/sand/sand_run6",
+			"dsurround:footsteps/sand/sand_run7",
+			"dsurround:footsteps/sand/sand_run8",
+			"dsurround:footsteps/sand/sand_run9"
+		]
+	},
+	"fs.sand.sand_walk": {
+		"category": "player",
+		"sounds": [
+			"dsurround:footsteps/sand/sand_walk1",
+			"dsurround:footsteps/sand/sand_walk10",
+			"dsurround:footsteps/sand/sand_walk11",
+			"dsurround:footsteps/sand/sand_walk2",
+			"dsurround:footsteps/sand/sand_walk3",
+			"dsurround:footsteps/sand/sand_walk4",
+			"dsurround:footsteps/sand/sand_walk5",
+			"dsurround:footsteps/sand/sand_walk6",
+			"dsurround:footsteps/sand/sand_walk7",
+			"dsurround:footsteps/sand/sand_walk8",
+			"dsurround:footsteps/sand/sand_walk9"
+		]
+	},
+	"fs.snow.snow_run": {
+		"category": "player",
+		"sounds": [
+			"dsurround:footsteps/snow/snow_run1",
+			"dsurround:footsteps/snow/snow_run10",
+			"dsurround:footsteps/snow/snow_run11",
+			"dsurround:footsteps/snow/snow_run2",
+			"dsurround:footsteps/snow/snow_run3",
+			"dsurround:footsteps/snow/snow_run4",
+			"dsurround:footsteps/snow/snow_run5",
+			"dsurround:footsteps/snow/snow_run6",
+			"dsurround:footsteps/snow/snow_run7",
+			"dsurround:footsteps/snow/snow_run8",
+			"dsurround:footsteps/snow/snow_run9"
+		]
+	},
+	"fs.snow.snow_walk": {
+		"category": "player",
+		"sounds": [
+			"dsurround:footsteps/snow/snow_walk1",
+			"dsurround:footsteps/snow/snow_walk10",
+			"dsurround:footsteps/snow/snow_walk11",
+			"dsurround:footsteps/snow/snow_walk2",
+			"dsurround:footsteps/snow/snow_walk3",
+			"dsurround:footsteps/snow/snow_walk4",
+			"dsurround:footsteps/snow/snow_walk5",
+			"dsurround:footsteps/snow/snow_walk6",
+			"dsurround:footsteps/snow/snow_walk7",
+			"dsurround:footsteps/snow/snow_walk8",
+			"dsurround:footsteps/snow/snow_walk9"
+		]
+	},
+	"fs.snow.snow_wander": {
+		"category": "player",
+		"sounds": [
+			"dsurround:footsteps/snow/snow_wander1",
+			"dsurround:footsteps/snow/snow_wander2",
+			"dsurround:footsteps/snow/snow_wander3",
+			"dsurround:footsteps/snow/snow_wander4",
+			"dsurround:footsteps/snow/snow_wander5"
+		]
+	},
+	"fs.squeakywood.squeakywood_walk": {
+		"category": "player",
+		"sounds": [
+			"dsurround:footsteps/squeakywood/squeakywood_walk1",
+			"dsurround:footsteps/squeakywood/squeakywood_walk10",
+			"dsurround:footsteps/squeakywood/squeakywood_walk11",
+			"dsurround:footsteps/squeakywood/squeakywood_walk2",
+			"dsurround:footsteps/squeakywood/squeakywood_walk3",
+			"dsurround:footsteps/squeakywood/squeakywood_walk4",
+			"dsurround:footsteps/squeakywood/squeakywood_walk5",
+			"dsurround:footsteps/squeakywood/squeakywood_walk6",
+			"dsurround:footsteps/squeakywood/squeakywood_walk7",
+			"dsurround:footsteps/squeakywood/squeakywood_walk8",
+			"dsurround:footsteps/squeakywood/squeakywood_walk9"
+		]
+	},
+	"fs.squeakywood.squeakywood_wander": {
+		"category": "player",
+		"sounds": [
+			"dsurround:footsteps/squeakywood/squeakywood_wander1",
+			"dsurround:footsteps/squeakywood/squeakywood_wander2",
+			"dsurround:footsteps/squeakywood/squeakywood_wander3",
+			"dsurround:footsteps/squeakywood/squeakywood_wander4",
+			"dsurround:footsteps/squeakywood/squeakywood_wander5",
+			"dsurround:footsteps/squeakywood/squeakywood_wander6",
+			"dsurround:footsteps/squeakywood/squeakywood_wander7"
+		]
+	},
+	"fs.stone.stone_run": {
+		"category": "player",
+		"sounds": [
+			"dsurround:footsteps/stone/stone_run1",
+			"dsurround:footsteps/stone/stone_run10",
+			"dsurround:footsteps/stone/stone_run11",
+			"dsurround:footsteps/stone/stone_run2",
+			"dsurround:footsteps/stone/stone_run3",
+			"dsurround:footsteps/stone/stone_run4",
+			"dsurround:footsteps/stone/stone_run5",
+			"dsurround:footsteps/stone/stone_run6",
+			"dsurround:footsteps/stone/stone_run7",
+			"dsurround:footsteps/stone/stone_run8",
+			"dsurround:footsteps/stone/stone_run9"
+		]
+	},
+	"fs.stone.stone_walk": {
+		"category": "player",
+		"sounds": [
+			"dsurround:footsteps/stone/stone_walk1",
+			"dsurround:footsteps/stone/stone_walk10",
+			"dsurround:footsteps/stone/stone_walk11",
+			"dsurround:footsteps/stone/stone_walk2",
+			"dsurround:footsteps/stone/stone_walk3",
+			"dsurround:footsteps/stone/stone_walk4",
+			"dsurround:footsteps/stone/stone_walk5",
+			"dsurround:footsteps/stone/stone_walk6",
+			"dsurround:footsteps/stone/stone_walk7",
+			"dsurround:footsteps/stone/stone_walk8",
+			"dsurround:footsteps/stone/stone_walk9"
+		]
+	},
+	"fs.stone.stone_wander": {
+		"category": "player",
+		"sounds": [
+			"dsurround:footsteps/stone/stone_wander1",
+			"dsurround:footsteps/stone/stone_wander2",
+			"dsurround:footsteps/stone/stone_wander3",
+			"dsurround:footsteps/stone/stone_wander4",
+			"dsurround:footsteps/stone/stone_wander5"
+		]
+	},
+	"fs.water.water_through": {
+		"category": "player",
+		"sounds": [
+			"dsurround:footsteps/water/water_through1",
+			"dsurround:footsteps/water/water_through10",
+			"dsurround:footsteps/water/water_through11",
+			"dsurround:footsteps/water/water_through2",
+			"dsurround:footsteps/water/water_through3",
+			"dsurround:footsteps/water/water_through4",
+			"dsurround:footsteps/water/water_through5",
+			"dsurround:footsteps/water/water_through6",
+			"dsurround:footsteps/water/water_through7",
+			"dsurround:footsteps/water/water_through8",
+			"dsurround:footsteps/water/water_through9"
+		]
+	},
+	"fs.water.water_wander": {
+		"category": "player",
+		"sounds": [
+			"dsurround:footsteps/water/water_wander1",
+			"dsurround:footsteps/water/water_wander2",
+			"dsurround:footsteps/water/water_wander3",
+			"dsurround:footsteps/water/water_wander4",
+			"dsurround:footsteps/water/water_wander5"
+		]
+	},
+	"fs.water_stereofix.water_through": {
+		"category": "player",
+		"sounds": [
+			"dsurround:footsteps/water_stereofix/water_through1",
+			"dsurround:footsteps/water_stereofix/water_through10",
+			"dsurround:footsteps/water_stereofix/water_through11",
+			"dsurround:footsteps/water_stereofix/water_through2",
+			"dsurround:footsteps/water_stereofix/water_through3",
+			"dsurround:footsteps/water_stereofix/water_through4",
+			"dsurround:footsteps/water_stereofix/water_through5",
+			"dsurround:footsteps/water_stereofix/water_through6",
+			"dsurround:footsteps/water_stereofix/water_through7",
+			"dsurround:footsteps/water_stereofix/water_through8",
+			"dsurround:footsteps/water_stereofix/water_through9"
+		]
+	},
+	"fs.water_stereofix.water_wander": {
+		"category": "player",
+		"sounds": [
+			"dsurround:footsteps/water_stereofix/water_wander1",
+			"dsurround:footsteps/water_stereofix/water_wander2",
+			"dsurround:footsteps/water_stereofix/water_wander3",
+			"dsurround:footsteps/water_stereofix/water_wander4",
+			"dsurround:footsteps/water_stereofix/water_wander5"
+		]
+	},
+	"fs.weakice.weakice_walk": {
+		"category": "player",
+		"sounds": [
+			"dsurround:footsteps/weakice/weakice_walk1",
+			"dsurround:footsteps/weakice/weakice_walk10",
+			"dsurround:footsteps/weakice/weakice_walk2",
+			"dsurround:footsteps/weakice/weakice_walk3",
+			"dsurround:footsteps/weakice/weakice_walk4",
+			"dsurround:footsteps/weakice/weakice_walk5",
+			"dsurround:footsteps/weakice/weakice_walk6",
+			"dsurround:footsteps/weakice/weakice_walk7",
+			"dsurround:footsteps/weakice/weakice_walk8",
+			"dsurround:footsteps/weakice/weakice_walk9"
+		]
+	},
+	"fs.wood.wood_walk": {
+		"category": "player",
+		"sounds": [
+			"dsurround:footsteps/wood/wood_walk1",
+			"dsurround:footsteps/wood/wood_walk10",
+			"dsurround:footsteps/wood/wood_walk11",
+			"dsurround:footsteps/wood/wood_walk2",
+			"dsurround:footsteps/wood/wood_walk3",
+			"dsurround:footsteps/wood/wood_walk4",
+			"dsurround:footsteps/wood/wood_walk5",
+			"dsurround:footsteps/wood/wood_walk6",
+			"dsurround:footsteps/wood/wood_walk7",
+			"dsurround:footsteps/wood/wood_walk8",
+			"dsurround:footsteps/wood/wood_walk9"
+		]
+	},
+	"rain": {
+		"category": "weather",
+		"sounds": [
+			"dsurround:ambient/weather/rain_calm1",
+			"dsurround:ambient/weather/rain_calm2",
+			"dsurround:ambient/weather/rain_calm3",
+			"dsurround:ambient/weather/rain_calm4"
+		]
+	},
+	"dust": {
+		"category": "weather",
+		"sounds": [
+			"dsurround:ambient/weather/dust"
+		]
+	},
+	"ice": {
+		"category": "ambient",
+		"sounds": [
+			"dsurround:ambient/ice/crack1",
+			"dsurround:ambient/ice/crack2",
+			"dsurround:ambient/ice/crack3"
+		]
+	},
+	"frog": {
+		"category": "ambient",
+		"sounds": [
+			"dsurround:ambient/frog/croak1",
+			"dsurround:ambient/frog/croak2",
+			"dsurround:ambient/frog/croak3"
+		]
+	},
+	"wind": {
+		"category": "ambient",
+		"sounds": [
+			{
+				"name": "dsurround:ambient/outside/wind",
+				"stream": true
+			}
+		]
+	},
+	"crickets": {
+		"category": "ambient",
+		"sounds": [
+			{
+				"name": "dsurround:ambient/outside/crickets",
+				"stream": true
+			}
+		]
+	},
+	"forest": {
+		"category": "ambient",
+		"sounds": [
+			{
+				"name": "dsurround:ambient/outside/forest",
+				"stream": true
+			}
+		]
+	},
+	"beach": {
+		"category": "ambient",
+		"sounds": [
+			{
+				"name": "dsurround:ambient/outside/beach",
+				"stream": true
+			}
+		]
+	},
+	"river": {
+		"category": "ambient",
+		"sounds": [
+			{
+				"name": "dsurround:ambient/outside/river",
+				"stream": true
+			}
+		]
+	},
+	"plains": {
+		"category": "ambient",
+		"sounds": [
+			{
+				"name": "dsurround:ambient/outside/plains",
+				"stream": true
+			}
+		]
+	},
+	"jungle": {
+		"category": "ambient",
+		"sounds": [
+			{
+				"name": "dsurround:ambient/outside/jungle",
+				"stream": true
+			}
+		]
+	},
+	"soulsand": {
+		"category": "ambient",
+		"sounds": [
+			"dsurround:ambient/soulsand/soulsand1",
+			"dsurround:ambient/soulsand/soulsand2",
+			"dsurround:ambient/soulsand/soulsand3"
+		]
+	},
+	"theend": {
+		"category": "ambient",
+		"sounds": [
+			{
+				"name": "dsurround:ambient/end/end",
+				"stream": true
+			}
+		]
+	},
+	"bird": {
+		"category": "ambient",
+		"sounds": [
+			"dsurround:ambient/birds/bird1",
+			"dsurround:ambient/birds/bird2",
+			"dsurround:ambient/birds/bird3",
+			"dsurround:ambient/birds/bird4",
+			"dsurround:ambient/birds/bird5",
+			"dsurround:ambient/birds/bird6",
+			"dsurround:ambient/birds/bird7",
+			"dsurround:ambient/birds/bird8",
+			"dsurround:ambient/birds/bird9",
+			"dsurround:ambient/birds/bird10"
+		]
+	},
+	"woodpecker": {
+		"category": "ambient",
+		"sounds": [
+			"dsurround:ambient/birds/woodpecker1",
+			"dsurround:ambient/birds/woodpecker2",
+			"dsurround:ambient/birds/woodpecker3",
+			"dsurround:ambient/birds/woodpecker4",
+			"dsurround:ambient/birds/woodpecker5"
+		]
+	},
+	"owl": {
+		"category": "ambient",
+		"sounds": [
+			"dsurround:ambient/owl/owl1",
+			"dsurround:ambient/owl/owl2",
+			"dsurround:ambient/owl/owl3"
+		]
+	},
+	"underground": {
+		"category": "ambient",
+		"sounds": [
+			{
+				"name": "dsurround:ambient/underground/ambient",
+				"stream": true
+			}
+		]
+	},
+	"rockfall": {
+		"category": "ambient",
+		"sounds": [
+			"dsurround:ambient/underground/smallslide1",
+			"dsurround:ambient/underground/smallslide2",
+			"dsurround:ambient/underground/smallslide3"
+		]
+	},
+	"bigrockfall": {
+		"category": "ambient",
+		"sounds": [
+			"dsurround:ambient/underground/bigslide1",
+			"dsurround:ambient/underground/bigslide2"
+		]
+	},
+	"monstergrowl": {
+		"category": "ambient",
+		"sounds": [
+			"dsurround:ambient/underground/monster_growl1"
+		]
+	},
+	"waterdrops": {
+		"category": "ambient",
+		"sounds": [
+			"dsurround:ambient/droplets/water1",
+			"dsurround:ambient/droplets/water2",
+			"dsurround:ambient/droplets/water3"
+		]
+	},
+	"seagulls": {
+		"category": "ambient",
+		"sounds": [
+			"dsurround:ambient/seagulls/seagulls1",
+			"dsurround:ambient/seagulls/seagulls2"
+		]
+	},
+	"coyote": {
+		"category": "ambient",
+		"sounds": [
+			"dsurround:ambient/coyote/coyote1",
+			"dsurround:ambient/coyote/coyote2",
+			"dsurround:ambient/coyote/coyote3",
+			"dsurround:ambient/coyote/coyote4",
+			"dsurround:ambient/coyote/coyote5",
+			"dsurround:ambient/coyote/coyote6"
+		]
+	},
+	"wolf": {
+		"category": "ambient",
+		"sounds": [
+			"dsurround:ambient/wolf/wolf1",
+			"dsurround:ambient/wolf/wolf2",
+			"dsurround:ambient/wolf/wolf3",
+			"dsurround:ambient/wolf/wolf4"
+		]
+	},
+	"underdeepocean": {
+		"category": "ambient",
+		"sounds": [
+			{
+				"name": "dsurround:ambient/underwater/deepocean",
+				"stream": true
+			}
+		]
+	},
+	"underocean": {
+		"category": "ambient",
+		"sounds": [
+			{
+				"name": "dsurround:ambient/underwater/ocean",
+				"stream": true
+			}
+		]
+	},
+	"underriver": {
+		"category": "ambient",
+		"sounds": [
+			{
+				"name": "dsurround:ambient/underwater/river",
+				"stream": true
+			}
+		]
+	},
+	"underwater": {
+		"category": "ambient",
+		"sounds": [
+			{
+				"name": "dsurround:ambient/underwater/water",
+				"stream": true
+			}
+		]
+	},
+	"whale": {
+		"category": "ambient",
+		"sounds": [
+			"dsurround:ambient/whale/whale1",
+			"dsurround:ambient/whale/whale2",
+			"dsurround:ambient/whale/whale3",
+			"dsurround:ambient/whale/whale4",
+			"dsurround:ambient/whale/whale5"
+		]
+	},
+	"heartbeat": {
+		"category": "player",
+		"sounds": [
+			"dsurround:ambient/steve/heartbeat"
+		]
+	},
+	"tummy": {
+		"category": "player",
+		"sounds": [
+			"dsurround:ambient/steve/tummy1",
+			"dsurround:ambient/steve/tummy2",
+			"dsurround:ambient/steve/tummy3"
+		]
+	},
+	"floorsqueak": {
+		"category": "ambient",
+		"sounds": [
+			"dsurround:ambient/miscblocks/floorsqueak1",
+			"dsurround:ambient/miscblocks/floorsqueak2",
+			"dsurround:ambient/miscblocks/floorsqueak3"
+		]
+	},
+	"breathing": {
+		"category": "ambient",
+		"sounds": [
+			"dsurround:ambient/miscblocks/breathing1",
+			"dsurround:ambient/miscblocks/breathing2"
+		]
+	},
+	"jump": {
+		"category": "player",
+		"sounds": [
+			"dsurround:ambient/steve/jump"
+		]
+	},
+	"bees": {
+		"category": "ambient",
+		"sounds": [
+			"dsurround:ambient/insects/bee1"
+		]
+	},
+	"insectcrawl": {
+		"category": "ambient",
+		"sounds": [
+			"dsurround:ambient/insects/crawl1",
+			"dsurround:ambient/insects/crawl2",
+			"dsurround:ambient/insects/crawl3"
+		]
+	},
+	"swoosh": {
+		"category": "player",
+		"sounds": [
+			"dsurround:ambient/steve/swoosh1",
+			"dsurround:ambient/steve/swoosh2",
+			"dsurround:ambient/steve/swoosh3",
+			"dsurround:ambient/steve/swoosh4",
+			"dsurround:ambient/steve/swoosh5",
+			"dsurround:ambient/steve/swoosh6",
+			"dsurround:ambient/steve/swoosh7"
+		]
+	},
+	"insectbuzz": {
+		"category": "ambient",
+		"sounds": [
+			"dsurround:ambient/insects/gnatt1",
+			"dsurround:ambient/insects/grasshopper1"
+		]
+	},
+	"gnatt": {
+		"category": "ambient",
+		"sounds": [
+			"dsurround:ambient/insects/gnatt1"
+		]
+	},
+	"grasshopper": {
+		"category": "ambient",
+		"sounds": [
+			"dsurround:ambient/insects/grasshopper1"
+		]
+	},
+	"crocodile": {
+		"category": "ambient",
+		"sounds": [
+			"dsurround:ambient/crock/crocodile1",
+			"dsurround:ambient/crock/crocodile2",
+			"dsurround:ambient/crock/crocodile3",
+			"dsurround:ambient/crock/crocodile4"
+		]
+	},
+	"rattlesnake": {
+		"category": "ambient",
+		"sounds": [
+			"dsurround:ambient/snake/rattlesnake1",
+			"dsurround:ambient/snake/rattlesnake2",
+			"dsurround:ambient/snake/rattlesnake3"
+		]
+	},
+	"elephant": {
+		"category": "ambient",
+		"sounds": [
+			"dsurround:ambient/elephant/elephant1",
+			"dsurround:ambient/elephant/elephant2",
+			"dsurround:ambient/elephant/elephant3"
+		]
+	},
+	"hiss": {
+		"category": "ambient",
+		"sounds": [
+			"dsurround:ambient/miscblocks/hiss1",
+			"dsurround:ambient/miscblocks/hiss2",
+			"dsurround:ambient/miscblocks/hiss3",
+			"dsurround:ambient/miscblocks/hiss4"
+		]
+	},
+	"newsprint": {
+		"category": "ambient",
+		"sounds": [
+			"dsurround:ambient/book/newsprint1",
+			"dsurround:ambient/book/newsprint2"
+		]
+	},
+	"pageflip": {
+		"category": "ambient",
+		"sounds": [
+			"dsurround:ambient/book/pageflip1",
+			"dsurround:ambient/book/pageflip2",
+			"dsurround:ambient/book/pageflip3"
+		]
+	},
+	"pageflipheavy": {
+		"category": "ambient",
+		"sounds": [
+			"dsurround:ambient/book/pageflipheavy1",
+			"dsurround:ambient/book/pageflipheavy2",
+			"dsurround:ambient/book/pageflipheavy3"
+		]
+	},
+	"bookshelf": {
+		"category": "ambient",
+		"sounds": [
+			"dsurround:ambient/book/newsprint1",
+			"dsurround:ambient/book/newsprint2",
+			"dsurround:ambient/book/pageflip1",
+			"dsurround:ambient/book/pageflip2",
+			"dsurround:ambient/book/pageflip3",
+			"dsurround:ambient/book/pageflipheavy1",
+			"dsurround:ambient/book/pageflipheavy2",
+			"dsurround:ambient/book/pageflipheavy3"
+		]
+	},
+	"crafting": {
+		"category": "ambient",
+		"sounds": [
+			"dsurround:ambient/steve/crafthammer1",
+			"dsurround:ambient/steve/crafthammer2",
+			"dsurround:ambient/steve/craftsaw1",
+			"dsurround:ambient/steve/craftsaw2",
+			"dsurround:ambient/steve/craftsand1",
+			"dsurround:ambient/steve/craftsand2"
+		]
+	},
+	"bison": {
+		"category": "ambient",
+		"sounds": [
+			"dsurround:ambient/bison/bison1",
+			"dsurround:ambient/bison/bison2",
+			"dsurround:ambient/bison/bison3",
+			"dsurround:ambient/bison/bison4"
+		]
+	},
+	"primates": {
+		"category": "ambient",
+		"sounds": [
+			"dsurround:ambient/primate/primate1",
+			"dsurround:ambient/primate/primate2",
+			"dsurround:ambient/primate/primate3",
+			"dsurround:ambient/primate/primate4",
+			"dsurround:ambient/primate/primate5"
+		]
+	},
+	"bowpull": {
+		"category": "player",
+		"sounds": [
+			{
+				"name": "dsurround:ambient/steve/bowpull1"
+			},
+			{
+				"name": "dsurround:ambient/steve/bowpull1",
+				"pitch": 1.25
+			},
+			{
+				"name": "dsurround:ambient/steve/bowpull1",
+				"pitch": 1.5
+			},
+			{
+				"name": "dsurround:ambient/steve/bowpull1",
+				"pitch": 1.75
+			}
+		]
+	},
 	"silence": {
+		"category": "ambient",
 		"sounds": [
 			"dsurround:ambient/silence"
+		]
+	},
+	"blunt.equip": {
+		"category": "player",
+		"sounds": [
+			"dsurround:ambient/items/blunt_draw"
+		]
+	},
+	"blunt.swing": {
+		"category": "player",
+		"sounds": [
+			"dsurround:ambient/items/blunt_swing1",
+			"dsurround:ambient/items/blunt_swing2",
+			"dsurround:ambient/items/blunt_swing3",
+			"dsurround:ambient/items/blunt_swing4",
+			"dsurround:ambient/items/blunt_swing5"
+		]
+	},
+	"bow.equip": {
+		"category": "player",
+		"sounds": [
+			"dsurround:ambient/items/bow_draw"
+		]
+	},
+	"bow.pull": {
+		"category": "player",
+		"sounds": [
+			"dsurround:ambient/items/bow_pull1",
+			"dsurround:ambient/items/bow_pull2",
+			"dsurround:ambient/items/bow_pull3",
+			"dsurround:ambient/items/bow_pull4",
+			"dsurround:ambient/items/bow_pull5"
+		]
+	},
+	"sword.equip": {
+		"category": "player",
+		"sounds": [
+			"dsurround:ambient/items/sword_draw"
+		]
+	},
+	"sword.swing": {
+		"category": "player",
+		"sounds": [
+			"dsurround:ambient/items/sword_swing1",
+			"dsurround:ambient/items/sword_swing2",
+			"dsurround:ambient/items/sword_swing3",
+			"dsurround:ambient/items/sword_swing4",
+			"dsurround:ambient/items/sword_swing5",
+			"dsurround:ambient/items/sword_swing6",
+			"dsurround:ambient/items/sword_swing7",
+			"dsurround:ambient/items/sword_swing8",
+			"dsurround:ambient/items/sword_swing9"
+		]
+	},
+	"tool.equip": {
+		"category": "player",
+		"sounds": [
+			"dsurround:ambient/items/tool_draw"
+		]
+	},
+	"tool.swing": {
+		"category": "player",
+		"sounds": [
+			"dsurround:ambient/items/swoosh1",
+			"dsurround:ambient/items/swoosh2",
+			"dsurround:ambient/items/swoosh3",
+			"dsurround:ambient/items/swoosh4",
+			"dsurround:ambient/items/swoosh5",
+			"dsurround:ambient/items/swoosh6",
+			"dsurround:ambient/items/swoosh7"
+		]
+	},
+	"utility.equip": {
+		"category": "player",
+		"sounds": [
+			"dsurround:ambient/items/utility_draw"
+		]
+	},
+	"potion.equip": {
+		"category": "player",
+		"sounds": [
+			"dsurround:ambient/items/potion_slosh1",
+			"dsurround:ambient/items/potion_slosh2",
+			"dsurround:ambient/items/potion_slosh3",
+			"dsurround:ambient/items/potion_slosh4"
 		]
 	}
 }

@@ -1,101 +1,80 @@
+buildscript {
+    repositories {
+        mavenCentral()
+        maven {
+            name = "forge"
+            url = "https://maven.minecraftforge.net/"
+        }
+    }
+    dependencies {
+        classpath ('com.anatawa12.forge:ForgeGradle:1.2-1.1.+') {
+            changing = true
+        }
+    }
+}
+
 plugins {
-    id 'dev.architectury.loom' version '1.4.390'
-    id 'architectury-plugin' version '3.4-SNAPSHOT'
+    id 'java-library'
     id 'maven-publish'
 }
 
-architectury {
-    minecraft = project.minecraft_version
-    platformSetupLoomIde()
-    forge()
-}
+apply plugin: 'forge'
 
-group = rootProject.maven_group
-version = rootProject.mod_version
+sourceCompatibility = JavaVersion.VERSION_1_7
+targetCompatibility = JavaVersion.VERSION_1_7
 
-base {
-    archivesName = rootProject.archives_base_name
-}
+version = project.version
+group = project.group
 
-repositories {
-    maven { url "https://maven.minecraftforge.net/" }
-    maven { url "https://maven.shedaniel.me/" }
-    maven { url "https://maven.glitch.solutions/releases" }
-}
-
-loom {
-    silentMojangMappingsLicense()
-    accessWidenerPath = file("src/main/resources/dsurround.accesswidener")
-
-    mods {
-        dsurround {
-            sourceSet sourceSets.main
-        }
+jar {
+    archiveBaseName = mod_id
+    manifest {
+        attributes(
+            'FMLCorePlugin': 'org.blockartistry.mod.DynSurround.asm.TransformLoader',
+            'FMLCorePluginContainsFMLMod': 'true',
+            'FMLAT': 'dsurround_at.cfg'
+        )
     }
+}
 
-    forge {
-        mixinConfig "dsurround.mixins.json"
-        convertAccessWideners = true
-        extraAccessWideners.add loom.accessWidenerPath.get().asFile.name
-    }
+minecraft {
+    version = project.minecraft_version + "-" + project.forge_version
+    runDir = "run"
 }
 
 dependencies {
-    minecraft "net.minecraft:minecraft:$rootProject.minecraft_version"
-    mappings loom.officialMojangMappings()
-
-    forge "net.minecraftforge:forge:$rootProject.minecraft_version-$rootProject.forge_version"
-
-    modImplementation "dev.architectury:architectury-forge:$rootProject.architectury_api_version"
-
-    implementation "org.openjdk.nashorn:nashorn-core:${rootProject.nashorn_version}"
-    compileOnly(annotationProcessor("io.github.llamalad7:mixinextras-common:0.3.5"))
-    implementation(include("io.github.llamalad7:mixinextras-forge:0.3.5"))
-
-    modCompileOnly("me.shedaniel.cloth:cloth-config-forge:${rootProject.clothapi_version}") {
-        exclude(group: "net.fabricmc.fabric-api")
-    }
-    modCompileOnly "com.github.glitchfiend:SereneSeasons-forge:${minecraft_version}-${rootProject.serene_seasons_version}"
+    implementation 'com.google.code.gson:gson:2.2.4'
 }
 
 processResources {
-    var expandProps = [
-            version: project.version,
-            mod_id: rootProject.name,
-            mod_name: rootProject.mod_name,
-            mod_description: rootProject.mod_description,
-            mod_author: rootProject.mod_author,
-            mod_credits: rootProject.mod_credits,
-            mod_license: rootProject.mod_license
-    ]
+    inputs.property "version", project.version
+    inputs.property "mcversion", project.minecraft.version
 
-    inputs.properties(expandProps)
-
-    filesMatching('META-INF/mods.toml') {
-        expand expandProps
-    }
-
-    into('/') {
-        from("$projectDir/CREDITS.md")
+    filesMatching('mcmod.info') {
+        expand(
+            'version': project.version,
+            'mcversion': project.minecraft.version
+        )
     }
 }
 
-java {
-    withSourcesJar()
-    sourceCompatibility = JavaVersion.VERSION_17
-    targetCompatibility = JavaVersion.VERSION_17
+tasks.withType(JavaCompile) {
+    options.encoding = "UTF-8"
 }
 
-tasks.withType(JavaCompile).configureEach {
-    it.options.release = 17
-    it.options.compilerArgs += ['-Xmaxerrs', '10000']
+task sourcesJar(type: Jar, dependsOn: classes) {
+    archiveBaseName = mod_id
+    classifier = "sources"
+    from sourceSets.main.allSource
 }
 
-publishing {
-    publications {
-        mavenJava(MavenPublication) {
-            artifactId = base.archivesName.get()
-            from components.java
-        }
-    }
+task devJar(type: Jar) {
+    archiveBaseName = mod_id
+    classifier = "dev"
+    from sourceSets.main.output
+}
+
+artifacts {
+    archives sourcesJar
+    archives devJar
 }

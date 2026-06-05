@@ -1,0 +1,67 @@
+{
+	"entries":[
+		{
+			"blocks":[
+				"BiomesOPlenty:hell_blood"
+			],
+			"effects":[
+				{
+					"effect":"fountain",
+					"chance":500
+				},
+				{
+					"effect":"bubble",
+					"chance":1800
+				}
+				
+			]
+			
+		},
+		{
+			"blocks":[
+				"BiomesOPlenty:planks",
+				"BiomesOPlenty:sacredoakStairs",
+				"BiomesOPlenty:cherryStairs",
+				"BiomesOPlenty:darkStairs",
+				"BiomesOPlenty:firStairs",
+				"BiomesOPlenty:magicStairs",
+				"BiomesOPlenty:mangroveStairs",
+				"BiomesOPlenty:palmStairs",
+				"BiomesOPlenty:redwoodStairs",
+				"BiomesOPlenty:willowStairs",
+				"BiomesOPlenty:pineStairs",
+				"BiomesOPlenty:hellBarkStairs",
+				"BiomesOPlenty:jacarandaStairs",
+				"BiomesOPlenty:mahoganyStairs"
+			],
+			"stepChance":150,
+			"sounds":[
+				{
+					"sound":"dsurround:floorsqueak",
+					"soundType":"step",
+					"volume":0.2,
+					"variable":true
+				}
+				
+			]
+			
+		},
+		{
+			"blocks":[
+				"BiomesOPlenty:foliage"
+			],
+			"chance":25000,
+			"sounds":[
+				{
+					"sound":"dsurround:hiss",
+					"conditions":"(?i)(?!.*raining.*|.*cold.*|.*freezing.*)(.*#day#.*)",
+					"volume":1.0,
+					"variable":true
+				}
+				
+			]
+			
+		}
+		
+	]
+}

@@ -1,9 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    {
-      "id": "#c:is_shallow_ocean",
-      "required": false
-    }
-  ]
-}
